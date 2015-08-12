@@ -1,0 +1,1028 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FA9627C6-67A6-46CD-AF57-EEFD39426D67}</ProjectGuid>
+    <RootNamespace>TC</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\src;.\7z;.\tcCtl</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>matchLib.lib;protocol.lib</AdditionalDependencies>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\src;.\7z;.\tcCtl;.\DeEnCode</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>matchLib.lib</AdditionalDependencies>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="hlp\afx_hidd_color.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\afx_hidd_fileopen.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\afx_hidd_filesave.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\afx_hidd_find.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\afx_hidd_font.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\afx_hidd_newtypedlg.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\afx_hidd_replace.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\afx_hidp_default.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\afx_hidw_dockbar_top.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\afx_hidw_status_bar.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\afx_hidw_toolbar.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hidr_doc1type.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_app_about.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_app_exit.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_context_help.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_edit_clear.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_edit_clear_all.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_edit_copy.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_edit_cut.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_edit_find.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_edit_paste.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_edit_redo.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_edit_repeat.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_edit_replace.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_edit_undo.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_file_close.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_file_mru_file1.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_file_new.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_file_open.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_file_save.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_file_save_as.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_file_send_mail.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_help_index.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_help_using.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_ht_caption.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_ht_nowhere.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_next_pane.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_prev_pane.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_sc_close.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_sc_maximize.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_sc_minimize.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_sc_move.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_sc_nextwindow.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_sc_prevwindow.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_sc_restore.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_sc_size.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_sc_tasklist.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_view_ruler.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_view_status_bar.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_view_toolbar.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_window_all.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_window_arrange.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_window_cascade.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_window_new.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_window_split.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_window_tile.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_window_tile_horz.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\hid_window_tile_vert.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\Images\Bullet.gif" />
+    <None Include="hlp\main_index.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\menu_edit.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\menu_file.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\menu_help.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\menu_view.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\menu_window.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\scrollbars.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hlp\TC.hhc" />
+    <None Include="hlp\TC.hhk" />
+    <CustomBuild Include="hlp\TC.hhp">
+      <FileType>Document</FileType>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)TC.chm;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">hlp\HTMLDefines.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">start /wait hhc "hlp\TC.hhp"
+if not exist "hlp\TC.chm" goto :HelpError
+copy "hlp\TC.chm" "$(OutDir)TC.chm"
+goto :HelpDone
+:HelpError
+echo hlp\TC.hhp(1) : error:创建帮助文件时遇到问题
+echo.
+:HelpDone
+echo.
+</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">正在生成帮助文件...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)TC.chm;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">hlp\HTMLDefines.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">start /wait hhc "hlp\TC.hhp"
+if not exist "hlp\TC.chm" goto :HelpError
+copy "hlp\TC.chm" "$(OutDir)TC.chm"
+goto :HelpDone
+:HelpError
+echo hlp\TC.hhp(1) : error:创建帮助文件时遇到问题
+echo.
+:HelpDone
+echo.
+</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">正在生成帮助文件...</Message>
+    </CustomBuild>
+    <None Include="ReadMe.txt" />
+    <None Include="res\buttons.bmp" />
+    <None Include="res\captionbar\login.ico" />
+    <None Include="res\captionbar\logout.ico" />
+    <None Include="res\captionbar\msg.ico" />
+    <None Include="res\captionbar\rc.ico" />
+    <None Include="res\captionbar\rechard.ico" />
+    <None Include="res\captionbar\reg.ico" />
+    <None Include="res\captionbar\tcbbs.ico" />
+    <None Include="res\captionbar\tcweb.ico" />
+    <None Include="res\captionbar\user.ico" />
+    <None Include="res\captionbar\v0.ico" />
+    <None Include="res\captionbar\v1.ico" />
+    <None Include="res\captionbar\V2.ico" />
+    <None Include="res\captionbar\V3.ico" />
+    <None Include="res\classview.bmp" />
+    <None Include="res\classview_hc.bmp" />
+    <None Include="res\class_view.ico" />
+    <None Include="res\class_view_hc.ico" />
+    <None Include="res\cur\curCheck.cur" />
+    <None Include="res\cur\curCombo.cur" />
+    <None Include="res\cur\curDate.cur" />
+    <None Include="res\cur\curEdit.cur" />
+    <None Include="res\cur\curgrid.cur" />
+    <None Include="res\cur\curGroup.cur" />
+    <None Include="res\cur\curHotkey.cur" />
+    <None Include="res\cur\curList.cur" />
+    <None Include="res\cur\curPath.cur" />
+    <None Include="res\cur\curPicture.cur" />
+    <None Include="res\cur\curProgress.cur" />
+    <None Include="res\cur\curRadio.cur" />
+    <None Include="res\cur\curButton.cur" />
+    <None Include="res\cur\curSlider.cur" />
+    <None Include="res\cur\curTab.cur" />
+    <None Include="res\cur\curText.cur" />
+    <None Include="res\cur\curTimer.cur" />
+    <None Include="res\cur\curWeb.cur" />
+    <None Include="res\explorer.bmp" />
+    <None Include="res\explorer_hc.bmp" />
+    <None Include="res\filelarge.bmp" />
+    <None Include="res\filesmall.bmp" />
+    <None Include="res\fileview.bmp" />
+    <None Include="res\fileview_hc.bmp" />
+    <None Include="res\file_view.ico" />
+    <None Include="res\file_view_hc.ico" />
+    <None Include="res\img\bg.jpg" />
+    <None Include="res\img\ico.png" />
+    <None Include="res\img\load.gif" />
+    <None Include="res\img\mainBg.gif" />
+    <None Include="res\img\rightBg.gif" />
+    <None Include="res\img\rightBg.png" />
+    <None Include="res\img\tabBg.gif" />
+    <None Include="res\img\topBg.jpg" />
+    <None Include="res\info.bmp" />
+    <None Include="res\listboxbmp.bmp" />
+    <None Include="res\loading-text.gif" />
+    <None Include="res\mail.ico" />
+    <None Include="res\main.bmp" />
+    <None Include="res\menuimages.bmp" />
+    <None Include="res\menuimages_hc.bmp" />
+    <None Include="res\outputWin.ico" />
+    <None Include="res\output_wnd.ico" />
+    <None Include="res\output_wnd_hc.ico" />
+    <None Include="res\properties.bmp" />
+    <None Include="res\properties_hc.bmp" />
+    <None Include="res\properties_wnd.ico" />
+    <None Include="res\properties_wnd_hc.ico" />
+    <None Include="res\ribbon.mfcribbon-ms" />
+    <None Include="res\sort.bmp" />
+    <None Include="res\sort_hc.bmp" />
+    <None Include="res\splash.png" />
+    <None Include="res\TC.ico" />
+    <None Include="res\TC.rc2" />
+    <None Include="res\TCDoc.ico" />
+    <None Include="res\TCStart.ico" />
+    <None Include="res\Timer.bmp" />
+    <None Include="res\Toolbar.bmp" />
+    <None Include="res\toolbar1.bmp" />
+    <None Include="res\Toolbar256.bmp" />
+    <None Include="res\ToolbarVip.bmp" />
+    <None Include="res\toolbox_view.ico" />
+    <None Include="res\toolbox_view_hc.ico" />
+    <None Include="res\toolico\html_tch.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="res\toolico\icobutton.ico" />
+    <None Include="res\toolico\icocheck.ico" />
+    <None Include="res\toolico\icocombobox.ico" />
+    <None Include="res\toolico\icodate.ico" />
+    <None Include="res\toolico\icoDefault.ico" />
+    <None Include="res\toolico\icoedit.ico" />
+    <None Include="res\toolico\icogrid.ico" />
+    <None Include="res\toolico\icogroup.ico" />
+    <None Include="res\toolico\icohotkey.ico" />
+    <None Include="res\toolico\icolistbox.ico" />
+    <None Include="res\toolico\icopath.ico" />
+    <None Include="res\toolico\icopicture.ico" />
+    <None Include="res\toolico\icoprogress.ico" />
+    <None Include="res\toolico\icoradio.ico" />
+    <None Include="res\toolico\icoslider.ico" />
+    <None Include="res\toolico\icostatic.ico" />
+    <None Include="res\toolico\icotab.ico" />
+    <None Include="res\toolico\icotimer.ico" />
+    <None Include="res\toolico\icoWeb.ico" />
+    <None Include="res\vip.ico" />
+    <None Include="res\writelarge.bmp" />
+    <None Include="res\writesmall.bmp" />
+    <None Include="StartHtmlDia.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="TC.reg" />
+    <None Include="TCHtmlExample.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="VipCenterHtmlDia.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="7z\7z\7zcompressionmode.h" />
+    <ClInclude Include="7z\7z\7zdecode.h" />
+    <ClInclude Include="7z\7z\7zencode.h" />
+    <ClInclude Include="7z\7z\7zfolderinstream.h" />
+    <ClInclude Include="7z\7z\7zFolderOutStream.h" />
+    <ClInclude Include="7z\7z\7zhandler.h" />
+    <ClInclude Include="7z\7z\7zheader.h" />
+    <ClInclude Include="7z\7z\7zin.h" />
+    <ClInclude Include="7z\7z\7zitem.h" />
+    <ClInclude Include="7z\7z\7zout.h" />
+    <ClInclude Include="7z\7z\7zProperties.h" />
+    <ClInclude Include="7z\7z\7zSpecStream.h" />
+    <ClInclude Include="7z\7z\7zUpdate.h" />
+    <ClInclude Include="7z\Common\ArchiveCommandLine.h" />
+    <ClInclude Include="7z\Common\ArchiveExtractCallback.h" />
+    <ClInclude Include="7z\Common\ArchiveOpenCallback.h" />
+    <ClInclude Include="7z\Common\AutoPtr.h" />
+    <ClInclude Include="7z\Common\Bench.h" />
+    <ClInclude Include="7z\Common\Buffer.h" />
+    <ClInclude Include="7z\Common\codermixer2.h" />
+    <ClInclude Include="7z\Common\codermixer2mt.h" />
+    <ClInclude Include="7z\Common\CommandLineParser.h" />
+    <ClInclude Include="7z\Common\ComTry.h" />
+    <ClInclude Include="7z\Common\copycoder.h" />
+    <ClInclude Include="7z\Common\createcoder.h" />
+    <ClInclude Include="7z\Common\cwrappers.h" />
+    <ClInclude Include="7z\Common\DefaultName.h" />
+    <ClInclude Include="7z\Common\Defs.h" />
+    <ClInclude Include="7z\Common\DirItem.h" />
+    <ClInclude Include="7z\Common\dummyoutstream.h" />
+    <ClInclude Include="7z\Common\DynamicBuffer.h" />
+    <ClInclude Include="7z\Common\EnumDirItems.h" />
+    <ClInclude Include="7z\Common\ExitCode.h" />
+    <ClInclude Include="7z\Common\Extract.h" />
+    <ClInclude Include="7z\Common\ExtractingFilePath.h" />
+    <ClInclude Include="7z\Common\ExtractMode.h" />
+    <ClInclude Include="7z\Common\FilePathAutoRename.h" />
+    <ClInclude Include="7z\Common\FileStreams.h" />
+    <ClInclude Include="7z\Common\filtercoder.h" />
+    <ClInclude Include="7z\Common\handlerout.h" />
+    <ClInclude Include="7z\Common\IFileExtractCallback.h" />
+    <ClInclude Include="7z\Common\inbuffer.h" />
+    <ClInclude Include="7z\Common\InOutTempBuffer.h" />
+    <ClInclude Include="7z\Common\instreamwithcrc.h" />
+    <ClInclude Include="7z\Common\IntToString.h" />
+    <ClInclude Include="7z\Common\itemnameutils.h" />
+    <ClInclude Include="7z\Common\limitedstreams.h" />
+    <ClInclude Include="7z\Common\ListFileUtils.h" />
+    <ClInclude Include="7z\Common\LoadCodecs.h" />
+    <ClInclude Include="7z\Common\lockedstream.h" />
+    <ClInclude Include="7z\Common\Lzma2Encoder.h" />
+    <ClInclude Include="7z\Common\lzmadecoder.h" />
+    <ClInclude Include="7z\Common\lzmaencoder.h" />
+    <ClInclude Include="7z\Common\methodid.h" />
+    <ClInclude Include="7z\Common\methodprops.h" />
+    <ClInclude Include="7z\Common\multistream.h" />
+    <ClInclude Include="7z\Common\MyCom.h" />
+    <ClInclude Include="7z\Common\MyException.h" />
+    <ClInclude Include="7z\Common\MyGuidDef.h" />
+    <ClInclude Include="7z\Common\MyInitGuid.h" />
+    <ClInclude Include="7z\Common\MyString.h" />
+    <ClInclude Include="7z\Common\MyUnknown.h" />
+    <ClInclude Include="7z\Common\MyVector.h" />
+    <ClInclude Include="7z\Common\MyWindows.h" />
+    <ClInclude Include="7z\Common\NewHandler.h" />
+    <ClInclude Include="7z\Common\OpenArchive.h" />
+    <ClInclude Include="7z\Common\outbuffer.h" />
+    <ClInclude Include="7z\Common\OutStreamWithCRC.h" />
+    <ClInclude Include="7z\Common\ParseProperties.h" />
+    <ClInclude Include="7z\Common\progressutils.h" />
+    <ClInclude Include="7z\Common\Property.h" />
+    <ClInclude Include="7z\Common\PropIDUtils.h" />
+    <ClInclude Include="7z\Common\RegisterArc.h" />
+    <ClInclude Include="7z\Common\RegisterCodec.h" />
+    <ClInclude Include="7z\Common\SetProperties.h" />
+    <ClInclude Include="7z\Common\SortUtils.h" />
+    <ClInclude Include="7z\Common\StdInStream.h" />
+    <ClInclude Include="7z\Common\StdOutStream.h" />
+    <ClInclude Include="7z\Common\streambinder.h" />
+    <ClInclude Include="7z\Common\streamobjects.h" />
+    <ClInclude Include="7z\Common\StreamUtils.h" />
+    <ClInclude Include="7z\Common\StringConvert.h" />
+    <ClInclude Include="7z\Common\StringToInt.h" />
+    <ClInclude Include="7z\Common\TempFiles.h" />
+    <ClInclude Include="7z\Common\types.h" />
+    <ClInclude Include="7z\Common\Update.h" />
+    <ClInclude Include="7z\Common\UpdateAction.h" />
+    <ClInclude Include="7z\Common\UpdateCallback.h" />
+    <ClInclude Include="7z\Common\UpdatePair.h" />
+    <ClInclude Include="7z\Common\UpdateProduce.h" />
+    <ClInclude Include="7z\Common\UTFConvert.h" />
+    <ClInclude Include="7z\Common\virtthread.h" />
+    <ClInclude Include="7z\Common\Wildcard.h" />
+    <ClInclude Include="7z\Common\zipregistry.h" />
+    <ClInclude Include="7z\Compress\Bcj2Coder.h" />
+    <ClInclude Include="7z\Compress\BcjCoder.h" />
+    <ClInclude Include="7z\Compress\BranchCoder.h" />
+    <ClInclude Include="7z\Compress\BranchMisc.h" />
+    <ClInclude Include="7z\Compress\Lzma2Decoder.h" />
+    <ClInclude Include="7z\Compress\RangeCoder.h" />
+    <ClInclude Include="7z\Compress\RangeCoderBit.h" />
+    <ClInclude Include="7z\C\7zAlloc.h" />
+    <ClInclude Include="7z\C\7zCrc.h" />
+    <ClInclude Include="7z\C\Alloc.h" />
+    <ClInclude Include="7z\C\BenchCon.h" />
+    <ClInclude Include="7z\C\Bra.h" />
+    <ClInclude Include="7z\C\ConsoleClose.h" />
+    <ClInclude Include="7z\C\CpuArch.h" />
+    <ClInclude Include="7z\C\Delta.h" />
+    <ClInclude Include="7z\C\ExtractCallbackConsole.h" />
+    <ClInclude Include="7z\C\List.h" />
+    <ClInclude Include="7z\C\LzFind.h" />
+    <ClInclude Include="7z\C\LzFindMt.h" />
+    <ClInclude Include="7z\C\LzHash.h" />
+    <ClInclude Include="7z\C\Lzma2Dec.h" />
+    <ClInclude Include="7z\C\Lzma2Enc.h" />
+    <ClInclude Include="7z\C\LzmaDec.h" />
+    <ClInclude Include="7z\C\LzmaEnc.h" />
+    <ClInclude Include="7z\C\MtCoder.h" />
+    <ClInclude Include="7z\C\MyVersion.h" />
+    <ClInclude Include="7z\C\OpenCallbackConsole.h" />
+    <ClInclude Include="7z\C\PercentPrinter.h" />
+    <ClInclude Include="7z\C\RotateDefs.h" />
+    <ClInclude Include="7z\C\Sha256.h" />
+    <ClInclude Include="7z\C\Threads.h" />
+    <ClInclude Include="7z\C\UpdateCallbackConsole.h" />
+    <ClInclude Include="7z\C\UserInputUtils.h" />
+    <ClInclude Include="7z\C\Xz.h" />
+    <ClInclude Include="7z\C\XzCrc64.h" />
+    <ClInclude Include="7z\C\XzEnc.h" />
+    <ClInclude Include="7z\ICoder.h" />
+    <ClInclude Include="7z\IDecl.h" />
+    <ClInclude Include="7z\IPassword.h" />
+    <ClInclude Include="7z\IProgress.h" />
+    <ClInclude Include="7z\IStream.h" />
+    <ClInclude Include="7z\PropID.h" />
+    <ClInclude Include="7z\Types.h" />
+    <ClInclude Include="7z\windows\Defs.h" />
+    <ClInclude Include="7z\windows\DLL.h" />
+    <ClInclude Include="7z\windows\Error.h" />
+    <ClInclude Include="7z\windows\FileDir.h" />
+    <ClInclude Include="7z\windows\FileFind.h" />
+    <ClInclude Include="7z\windows\FileIO.h" />
+    <ClInclude Include="7z\windows\FileMapping.h" />
+    <ClInclude Include="7z\windows\FileName.h" />
+    <ClInclude Include="7z\windows\Handle.h" />
+    <ClInclude Include="7z\windows\MemoryLock.h" />
+    <ClInclude Include="7z\windows\NtCheck.h" />
+    <ClInclude Include="7z\windows\PropVariant.h" />
+    <ClInclude Include="7z\windows\PropVariantConversions.h" />
+    <ClInclude Include="7z\windows\Registry.h" />
+    <ClInclude Include="7z\windows\synchronization.h" />
+    <ClInclude Include="7z\windows\System.h" />
+    <ClInclude Include="7z\windows\thread.h" />
+    <ClInclude Include="7z\windows\Time.h" />
+    <ClInclude Include="aes.h" />
+    <ClInclude Include="ButtonSSL.h" />
+    <ClInclude Include="ChildFrm.h" />
+    <ClInclude Include="ClassView.h" />
+    <ClInclude Include="ControlRect.h" />
+    <ClInclude Include="ControlTracker.h" />
+    <ClInclude Include="CxSplitterWnd.h" />
+    <ClInclude Include="decode.h" />
+    <ClInclude Include="DES.h" />
+    <ClInclude Include="DesignToolBox.h" />
+    <ClInclude Include="DiaNewFile.h" />
+    <ClInclude Include="DiaNewProj.h" />
+    <ClInclude Include="DiaNewTWin.h" />
+    <ClInclude Include="DiaTCDesign.h" />
+    <ClInclude Include="DiaTViewFind.h" />
+    <ClInclude Include="Docommand.h" />
+    <ClInclude Include="EditorSettingPage.h" />
+    <ClInclude Include="encode.h" />
+    <ClInclude Include="exeVersion\Stringfileinfo.h" />
+    <ClInclude Include="exeVersion\Stringtable.h" />
+    <ClInclude Include="exeVersion\VersionInfo.h" />
+    <ClInclude Include="exeVersion\VersionInfoBuffer.h" />
+    <ClInclude Include="exeVersion\VersionInfoHelperStructures.h" />
+    <ClInclude Include="exeVersion\Versioninfostring.h" />
+    <ClInclude Include="FileTreeView.h" />
+    <ClInclude Include="FileView.h" />
+    <ClInclude Include="FormToolBox.h" />
+    <ClInclude Include="IconListBox.h" />
+    <ClInclude Include="InPlaceCombo.h" />
+    <ClInclude Include="ListFarther.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="Markup.h" />
+    <ClInclude Include="matchLib.h" />
+    <ClInclude Include="MyApiManager.h" />
+    <ClInclude Include="OddButton.h" />
+    <ClInclude Include="OutputWnd.h" />
+    <ClInclude Include="ProjTreeView.h" />
+    <ClInclude Include="PropertiesWnd.h" />
+    <ClInclude Include="RedoUndo\undo.h" />
+    <ClInclude Include="SplashWnd.h" />
+    <ClInclude Include="StartDoc.h" />
+    <ClInclude Include="StartHtmlDia.h" />
+    <ClInclude Include="TCAes.h" />
+    <ClInclude Include="TCCode.h" />
+    <ClInclude Include="tcCtl\GridCtrl_src\CellRange.h" />
+    <ClInclude Include="tcCtl\GridCtrl_src\GridCell.h" />
+    <ClInclude Include="tcCtl\GridCtrl_src\GridCellBase.h" />
+    <ClInclude Include="tcCtl\GridCtrl_src\GridCtrl.h" />
+    <ClInclude Include="tcCtl\GridCtrl_src\GridDropTarget.h" />
+    <ClInclude Include="tcCtl\GridCtrl_src\InPlaceEdit.h" />
+    <ClInclude Include="tcCtl\GridCtrl_src\NewCellTypes\GridCellCheck.h" />
+    <ClInclude Include="tcCtl\GridCtrl_src\NewCellTypes\GridCellCombo.h" />
+    <ClInclude Include="tcCtl\GridCtrl_src\NewCellTypes\GridCellDateTime.h" />
+    <ClInclude Include="tcCtl\GridCtrl_src\NewCellTypes\GridCellNumeric.h" />
+    <ClInclude Include="tcCtl\GridCtrl_src\TCMemDC.h" />
+    <ClInclude Include="tcCtl\GridCtrl_src\TitleTip.h" />
+    <ClInclude Include="tcCtl\TCExplorer.h" />
+    <ClInclude Include="TCDesktopAlertDia.h" />
+    <ClInclude Include="TCEditorLineJumper.h" />
+    <ClInclude Include="TCExeVersionManager.h" />
+    <ClInclude Include="TCGridItems.h" />
+    <ClInclude Include="TCGridListBox.h" />
+    <ClInclude Include="TCGridProperty.h" />
+    <ClInclude Include="TCLoadWinRCFile.h" />
+    <ClInclude Include="TCRunConfim.h" />
+    <ClInclude Include="TCSettingDia.h" />
+    <ClInclude Include="TCTabListBox.h" />
+    <ClInclude Include="TCTabProperty.h" />
+    <ClInclude Include="ToolTip\CeXDib.h" />
+    <ClInclude Include="ToolTip\Monitors.h" />
+    <ClInclude Include="ToolTip\MultiMonitor.h" />
+    <ClInclude Include="ToolTip\PPDrawManager.h" />
+    <ClInclude Include="ToolTip\PPHtmlDrawer.h" />
+    <ClInclude Include="ToolTip\PPTooltip.h" />
+    <ClInclude Include="ToolTip\XSuperTooltip.h" />
+    <ClInclude Include="UpdateSettingPage.h" />
+    <ClInclude Include="VipCenterDoc.h" />
+    <ClInclude Include="VipCenterHtmlDia.h" />
+    <ClInclude Include="VipCenterView.h" />
+    <ClInclude Include="XInfoTip.h" />
+    <ClInclude Include="XInfoTipDebug.h" />
+    <CustomBuild Include="Resource.h">
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">hlp\HTMLDefines.h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">echo // 生成的帮助映射文件。使用者为TC.HHP. &gt; "hlp\HTMLDefines.h"
+echo. &gt; "hlp\HTMLDefines.h"
+echo // 命令(ID_* 和 IDM_*) &gt;&gt; "hlp\HTMLDefines.h"
+makehm /h ID_,HID_,0x10000 IDM_,HIDM_,0x10000 "%(FullPath)" &gt;&gt; "hlp\HTMLDefines.h"
+echo. &gt;&gt; "hlp\HTMLDefines.h"
+echo // 提示(IDP_*) &gt;&gt; "hlp\HTMLDefines.h"
+makehm /h IDP_,HIDP_,0x30000 "%(FullPath)" &gt;&gt; "hlp\HTMLDefines.h"
+echo. &gt;&gt; "hlp\HTMLDefines.h"
+echo // 资源(IDR_*) &gt;&gt; "hlp\HTMLDefines.h"
+makehm /h IDR_,HIDR_,0x20000 "%(FullPath)" &gt;&gt; "hlp\HTMLDefines.h"
+echo. &gt;&gt; "hlp\HTMLDefines.h"
+echo // 对话框(IDD_*) &gt;&gt; "hlp\HTMLDefines.h"
+makehm /h IDD_,HIDD_,0x20000 "%(FullPath)" &gt;&gt; "hlp\HTMLDefines.h"
+echo. &gt;&gt; "hlp\HTMLDefines.h"
+echo // 框架控件(IDW_*) &gt;&gt; "hlp\HTMLDefines.h"
+makehm /h /a afxhh.h IDW_,HIDW_,0x50000 "%(FullPath)" &gt;&gt; "hlp\HTMLDefines.h"
+</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">正在生成帮助编译器的映射文件...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">hlp\HTMLDefines.h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">echo // 生成的帮助映射文件。使用者为TC.HHP. &gt; "hlp\HTMLDefines.h"
+echo. &gt; "hlp\HTMLDefines.h"
+echo // 命令(ID_* 和 IDM_*) &gt;&gt; "hlp\HTMLDefines.h"
+makehm /h ID_,HID_,0x10000 IDM_,HIDM_,0x10000 "%(FullPath)" &gt;&gt; "hlp\HTMLDefines.h"
+echo. &gt;&gt; "hlp\HTMLDefines.h"
+echo // 提示(IDP_*) &gt;&gt; "hlp\HTMLDefines.h"
+makehm /h IDP_,HIDP_,0x30000 "%(FullPath)" &gt;&gt; "hlp\HTMLDefines.h"
+echo. &gt;&gt; "hlp\HTMLDefines.h"
+echo // 资源(IDR_*) &gt;&gt; "hlp\HTMLDefines.h"
+makehm /h IDR_,HIDR_,0x20000 "%(FullPath)" &gt;&gt; "hlp\HTMLDefines.h"
+echo. &gt;&gt; "hlp\HTMLDefines.h"
+echo // 对话框(IDD_*) &gt;&gt; "hlp\HTMLDefines.h"
+makehm /h IDD_,HIDD_,0x20000 "%(FullPath)" &gt;&gt; "hlp\HTMLDefines.h"
+echo. &gt;&gt; "hlp\HTMLDefines.h"
+echo // 框架控件(IDW_*) &gt;&gt; "hlp\HTMLDefines.h"
+makehm /h /a afxhh.h IDW_,HIDW_,0x50000 "%(FullPath)" &gt;&gt; "hlp\HTMLDefines.h"
+</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">正在生成帮助编译器的映射文件...</Message>
+    </CustomBuild>
+    <ClInclude Include="RefObject.h" />
+    <ClInclude Include="ScintillaWnd.h" />
+    <ClInclude Include="StartView.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TC.h" />
+    <ClInclude Include="TCComBoxItem.h" />
+    <ClInclude Include="TCCtlHeads.h" />
+    <ClInclude Include="tcCtl\CreateGrayscaleIcon.h" />
+    <ClInclude Include="tcCtl\TCComboBox.h" />
+    <ClInclude Include="tcCtl\TCCheck.h" />
+    <ClInclude Include="tcCtl\TCDate.h" />
+    <ClInclude Include="tcCtl\TCHotKeyCtrl.h" />
+    <ClInclude Include="tcCtl\TCListBox.h" />
+    <ClInclude Include="tcCtl\TCOddButton.h" />
+    <ClInclude Include="tcCtl\TCPath.h" />
+    <ClInclude Include="tcCtl\TCPicture.h" />
+    <ClInclude Include="tcCtl\TCProgress.h" />
+    <ClInclude Include="tcCtl\TCRadio.h" />
+    <ClInclude Include="tcCtl\TCSlider.h" />
+    <ClInclude Include="tcCtl\TCStatic.h" />
+    <ClInclude Include="tcCtl\TCEdit.h" />
+    <ClInclude Include="tcCtl\TCGroupBox.h" />
+    <ClInclude Include="tcCtl\TCButton.h" />
+    <ClInclude Include="tcCtl\TCTab.h" />
+    <ClInclude Include="tcCtl\TCTabPage.h" />
+    <ClInclude Include="tcCtl\TCTimer.h" />
+    <ClInclude Include="tcCtl\XThemeHelper.h" />
+    <ClInclude Include="TCDesignDoc.h" />
+    <ClInclude Include="TCDesignView.h" />
+    <ClInclude Include="TCDoc.h" />
+    <ClInclude Include="TCFunDecWnd.h" />
+    <ClInclude Include="TCHotKeySetting.h" />
+    <ClInclude Include="TCHtmlExample.h" />
+    <ClInclude Include="TCListBoxItem.h" />
+    <ClInclude Include="TCRunTimeManager.h" />
+    <ClInclude Include="TCTableProperty.h" />
+    <ClInclude Include="TCView.h" />
+    <ClInclude Include="ViewTree.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="7z\7z\7zCompressionMode.cpp" />
+    <ClCompile Include="7z\7z\7zDecode.cpp" />
+    <ClCompile Include="7z\7z\7zEncode.cpp" />
+    <ClCompile Include="7z\7z\7zExtract.cpp" />
+    <ClCompile Include="7z\7z\7zFolderInStream.cpp" />
+    <ClCompile Include="7z\7z\7zFolderOutStream.cpp" />
+    <ClCompile Include="7z\7z\7zHandler.cpp" />
+    <ClCompile Include="7z\7z\7zHandlerOut.cpp" />
+    <ClCompile Include="7z\7z\7zHeader.cpp" />
+    <ClCompile Include="7z\7z\7zIn.cpp" />
+    <ClCompile Include="7z\7z\7zOut.cpp" />
+    <ClCompile Include="7z\7z\7zProperties.cpp" />
+    <ClCompile Include="7z\7z\7zRegister.cpp" />
+    <ClCompile Include="7z\7z\7zSpecStream.cpp" />
+    <ClCompile Include="7z\7z\7zUpdate.cpp" />
+    <ClCompile Include="7z\Common\ArchiveCommandLine.cpp" />
+    <ClCompile Include="7z\Common\ArchiveExtractCallback.cpp" />
+    <ClCompile Include="7z\Common\ArchiveOpenCallback.cpp" />
+    <ClCompile Include="7z\Common\Bench.cpp" />
+    <ClCompile Include="7z\Common\CoderMixer2.cpp" />
+    <ClCompile Include="7z\Common\CoderMixer2MT.cpp" />
+    <ClCompile Include="7z\Common\CommandLineParser.cpp" />
+    <ClCompile Include="7z\Common\CopyCoder.cpp" />
+    <ClCompile Include="7z\Common\CRC.cpp" />
+    <ClCompile Include="7z\Common\CreateCoder.cpp" />
+    <ClCompile Include="7z\Common\CWrappers.cpp" />
+    <ClCompile Include="7z\Common\DefaultName.cpp" />
+    <ClCompile Include="7z\Common\DummyOutStream.cpp" />
+    <ClCompile Include="7z\Common\EnumDirItems.cpp" />
+    <ClCompile Include="7z\Common\Extract.cpp" />
+    <ClCompile Include="7z\Common\ExtractingFilePath.cpp" />
+    <ClCompile Include="7z\Common\FilePathAutoRename.cpp" />
+    <ClCompile Include="7z\Common\FileStreams.cpp" />
+    <ClCompile Include="7z\Common\FilterCoder.cpp" />
+    <ClCompile Include="7z\Common\HandlerOut.cpp" />
+    <ClCompile Include="7z\Common\InBuffer.cpp" />
+    <ClCompile Include="7z\Common\InOutTempBuffer.cpp" />
+    <ClCompile Include="7z\Common\InStreamWithCRC.cpp" />
+    <ClCompile Include="7z\Common\IntToString.cpp" />
+    <ClCompile Include="7z\Common\ItemNameUtils.cpp" />
+    <ClCompile Include="7z\Common\LimitedStreams.cpp" />
+    <ClCompile Include="7z\Common\ListFileUtils.cpp" />
+    <ClCompile Include="7z\Common\LoadCodecs.cpp" />
+    <ClCompile Include="7z\Common\LockedStream.cpp" />
+    <ClCompile Include="7z\Common\Lzma2Encoder.cpp" />
+    <ClCompile Include="7z\Common\LzmaDecoder.cpp" />
+    <ClCompile Include="7z\Common\LzmaEncoder.cpp" />
+    <ClCompile Include="7z\Common\MethodId.cpp" />
+    <ClCompile Include="7z\Common\MethodProps.cpp" />
+    <ClCompile Include="7z\Common\MultiStream.cpp" />
+    <ClCompile Include="7z\Common\MyString.cpp" />
+    <ClCompile Include="7z\Common\MyVector.cpp" />
+    <ClCompile Include="7z\Common\NewHandler.cpp" />
+    <ClCompile Include="7z\Common\OpenArchive.cpp" />
+    <ClCompile Include="7z\Common\OutBuffer.cpp" />
+    <ClCompile Include="7z\Common\OutStreamWithCRC.cpp" />
+    <ClCompile Include="7z\Common\ParseProperties.cpp" />
+    <ClCompile Include="7z\Common\ProgressUtils.cpp" />
+    <ClCompile Include="7z\Common\PropIDUtils.cpp" />
+    <ClCompile Include="7z\Common\SetProperties.cpp" />
+    <ClCompile Include="7z\Common\SortUtils.cpp" />
+    <ClCompile Include="7z\Common\StdInStream.cpp" />
+    <ClCompile Include="7z\Common\StdOutStream.cpp" />
+    <ClCompile Include="7z\Common\StreamBinder.cpp" />
+    <ClCompile Include="7z\Common\StreamObjects.cpp" />
+    <ClCompile Include="7z\Common\StreamUtils.cpp" />
+    <ClCompile Include="7z\Common\StringConvert.cpp" />
+    <ClCompile Include="7z\Common\StringToInt.cpp" />
+    <ClCompile Include="7z\Common\TempFiles.cpp" />
+    <ClCompile Include="7z\Common\Update.cpp" />
+    <ClCompile Include="7z\Common\UpdateAction.cpp" />
+    <ClCompile Include="7z\Common\UpdateCallback.cpp" />
+    <ClCompile Include="7z\Common\UpdatePair.cpp" />
+    <ClCompile Include="7z\Common\UpdateProduce.cpp" />
+    <ClCompile Include="7z\Common\UTFConvert.cpp" />
+    <ClCompile Include="7z\Common\VirtThread.cpp" />
+    <ClCompile Include="7z\Common\Wildcard.cpp" />
+    <ClCompile Include="7z\Compress\Bcj2Coder.cpp" />
+    <ClCompile Include="7z\Compress\Bcj2Register.cpp" />
+    <ClCompile Include="7z\Compress\BcjCoder.cpp" />
+    <ClCompile Include="7z\Compress\BcjRegister.cpp" />
+    <ClCompile Include="7z\Compress\BranchCoder.cpp" />
+    <ClCompile Include="7z\Compress\BranchMisc.cpp" />
+    <ClCompile Include="7z\Compress\BranchRegister.cpp" />
+    <ClCompile Include="7z\Compress\ByteSwap.cpp" />
+    <ClCompile Include="7z\Compress\CodecExports.cpp" />
+    <ClCompile Include="7z\Compress\CopyRegister.cpp" />
+    <ClCompile Include="7z\Compress\DeltaFilter.cpp" />
+    <ClCompile Include="7z\Compress\Lzma2Decoder.cpp" />
+    <ClCompile Include="7z\Compress\Lzma2Register.cpp" />
+    <ClCompile Include="7z\Compress\LzmaRegister.cpp" />
+    <ClCompile Include="7z\C\7zCrc.cpp" />
+    <ClCompile Include="7z\C\7zStream.cpp" />
+    <ClCompile Include="7z\C\Alloc.cpp" />
+    <ClCompile Include="7z\C\BenchCon.cpp" />
+    <ClCompile Include="7z\C\Bra.cpp" />
+    <ClCompile Include="7z\C\Bra86.cpp" />
+    <ClCompile Include="7z\C\BraIA64.cpp" />
+    <ClCompile Include="7z\C\ConsoleClose.cpp" />
+    <ClCompile Include="7z\C\CpuArch.cpp" />
+    <ClCompile Include="7z\C\Delta.cpp" />
+    <ClCompile Include="7z\C\ExtractCallbackConsole.cpp" />
+    <ClCompile Include="7z\C\List.cpp" />
+    <ClCompile Include="7z\C\LzFind.cpp" />
+    <ClCompile Include="7z\C\LzFindMt.cpp" />
+    <ClCompile Include="7z\C\Lzma2Dec.cpp" />
+    <ClCompile Include="7z\C\Lzma2Enc.cpp" />
+    <ClCompile Include="7z\C\LzmaDec.cpp" />
+    <ClCompile Include="7z\C\LzmaEnc.cpp" />
+    <ClCompile Include="7z\C\MtCoder.cpp" />
+    <ClCompile Include="7z\C\OpenCallbackConsole.cpp" />
+    <ClCompile Include="7z\C\PercentPrinter.cpp" />
+    <ClCompile Include="7z\C\Sha256.cpp" />
+    <ClCompile Include="7z\C\Threads.cpp" />
+    <ClCompile Include="7z\C\UpdateCallbackConsole.cpp" />
+    <ClCompile Include="7z\C\UserInputUtils.cpp" />
+    <ClCompile Include="7z\C\Xz.cpp" />
+    <ClCompile Include="7z\C\XzCrc64.cpp" />
+    <ClCompile Include="7z\C\XzDec.cpp" />
+    <ClCompile Include="7z\C\XzEnc.cpp" />
+    <ClCompile Include="7z\C\XzIn.cpp" />
+    <ClCompile Include="7z\LzmaHandler.cpp" />
+    <ClCompile Include="7z\SplitHandler.cpp" />
+    <ClCompile Include="7z\windows\DLL.cpp" />
+    <ClCompile Include="7z\windows\Error.cpp" />
+    <ClCompile Include="7z\windows\FileDir.cpp" />
+    <ClCompile Include="7z\windows\FileFind.cpp" />
+    <ClCompile Include="7z\windows\FileIO.cpp" />
+    <ClCompile Include="7z\windows\FileMapping.cpp" />
+    <ClCompile Include="7z\windows\FileName.cpp" />
+    <ClCompile Include="7z\windows\MemoryLock.cpp" />
+    <ClCompile Include="7z\windows\PropVariant.cpp" />
+    <ClCompile Include="7z\windows\PropVariantConversions.cpp" />
+    <ClCompile Include="7z\windows\Registry.cpp" />
+    <ClCompile Include="7z\windows\Synchronization.cpp" />
+    <ClCompile Include="7z\windows\System.cpp" />
+    <ClCompile Include="7z\windows\Time.cpp" />
+    <ClCompile Include="7z\XzHandler.cpp" />
+    <ClCompile Include="aes.cpp" />
+    <ClCompile Include="ButtonSSL.cpp" />
+    <ClCompile Include="ChildFrm.cpp" />
+    <ClCompile Include="ClassView.cpp" />
+    <ClCompile Include="ControlRect.cpp" />
+    <ClCompile Include="ControlTracker.cpp" />
+    <ClCompile Include="CxSplitterWnd.cpp" />
+    <ClCompile Include="DES.cpp" />
+    <ClCompile Include="DesignToolBox.cpp" />
+    <ClCompile Include="DiaNewFile.cpp" />
+    <ClCompile Include="DiaNewProj.cpp" />
+    <ClCompile Include="DiaNewTWin.cpp" />
+    <ClCompile Include="DiaTCDesign.cpp" />
+    <ClCompile Include="DiaTViewFind.cpp" />
+    <ClCompile Include="EditorSettingPage.cpp" />
+    <ClCompile Include="exeVersion\StringFileInfo.cpp" />
+    <ClCompile Include="exeVersion\StringTable.cpp" />
+    <ClCompile Include="exeVersion\VersionInfo.cpp" />
+    <ClCompile Include="exeVersion\VersionInfoBuffer.cpp" />
+    <ClCompile Include="exeVersion\VersionInfoString.cpp" />
+    <ClCompile Include="FileTreeView.cpp" />
+    <ClCompile Include="FileView.cpp" />
+    <ClCompile Include="FormToolBox.cpp" />
+    <ClCompile Include="IconListBox.cpp" />
+    <ClCompile Include="InPlaceCombo.cpp" />
+    <ClCompile Include="ListFarther.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="Markup.cpp" />
+    <ClCompile Include="MyApiManager.cpp" />
+    <ClCompile Include="OddButton.cpp" />
+    <ClCompile Include="OutputWnd.cpp" />
+    <ClCompile Include="ProjTreeView.cpp" />
+    <ClCompile Include="PropertiesWnd.cpp" />
+    <ClCompile Include="RefObject.cpp" />
+    <ClCompile Include="ScintillaWnd.cpp" />
+    <ClCompile Include="SplashWnd.cpp" />
+    <ClCompile Include="StartDoc.cpp" />
+    <ClCompile Include="StartHtmlDia.cpp" />
+    <ClCompile Include="StartView.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TC.cpp" />
+    <ClCompile Include="TCAes.cpp" />
+    <ClCompile Include="TCCode.cpp" />
+    <ClCompile Include="TCComBoxItem.cpp" />
+    <ClCompile Include="tcCtl\GridCtrl_src\GridCell.cpp" />
+    <ClCompile Include="tcCtl\GridCtrl_src\GridCellBase.cpp" />
+    <ClCompile Include="tcCtl\GridCtrl_src\GridCtrl.cpp" />
+    <ClCompile Include="tcCtl\GridCtrl_src\GridDropTarget.cpp" />
+    <ClCompile Include="tcCtl\GridCtrl_src\InPlaceEdit.cpp" />
+    <ClCompile Include="tcCtl\GridCtrl_src\NewCellTypes\GridCellCheck.cpp" />
+    <ClCompile Include="tcCtl\GridCtrl_src\NewCellTypes\GridCellCombo.cpp" />
+    <ClCompile Include="tcCtl\GridCtrl_src\NewCellTypes\GridCellDateTime.cpp" />
+    <ClCompile Include="tcCtl\GridCtrl_src\NewCellTypes\GridCellNumeric.cpp" />
+    <ClCompile Include="tcCtl\GridCtrl_src\TitleTip.cpp" />
+    <ClCompile Include="tcCtl\TCComboBox.cpp" />
+    <ClCompile Include="tcCtl\TCCheck.cpp" />
+    <ClCompile Include="tcCtl\TCDate.cpp" />
+    <ClCompile Include="tcCtl\TCExplorer.cpp" />
+    <ClCompile Include="tcCtl\TCHotKeyCtrl.cpp" />
+    <ClCompile Include="tcCtl\TCListBox.cpp" />
+    <ClCompile Include="tcCtl\TCOddButton.cpp" />
+    <ClCompile Include="tcCtl\TCPath.cpp" />
+    <ClCompile Include="tcCtl\TCPicture.cpp" />
+    <ClCompile Include="tcCtl\TCProgress.cpp" />
+    <ClCompile Include="tcCtl\TCRadio.cpp" />
+    <ClCompile Include="tcCtl\TCSlider.cpp" />
+    <ClCompile Include="tcCtl\TCStatic.cpp" />
+    <ClCompile Include="tcCtl\TCEdit.cpp" />
+    <ClCompile Include="tcCtl\TCGroupBox.cpp" />
+    <ClCompile Include="tcCtl\TCButton.cpp" />
+    <ClCompile Include="tcCtl\TCTab.cpp" />
+    <ClCompile Include="tcCtl\TCTabPage.cpp" />
+    <ClCompile Include="tcCtl\TCTimer.cpp" />
+    <ClCompile Include="tcCtl\XThemeHelper.cpp" />
+    <ClCompile Include="TCDesignDoc.cpp" />
+    <ClCompile Include="TCDesignView.cpp" />
+    <ClCompile Include="TCDesktopAlertDia.cpp" />
+    <ClCompile Include="TCDoc.cpp" />
+    <ClCompile Include="TCEditorLineJumper.cpp" />
+    <ClCompile Include="TCExeVersionManager.cpp" />
+    <ClCompile Include="TCFunDecWnd.cpp" />
+    <ClCompile Include="TCGridItems.cpp" />
+    <ClCompile Include="TCGridListBox.cpp" />
+    <ClCompile Include="TCGridProperty.cpp" />
+    <ClCompile Include="TCHotKeySetting.cpp" />
+    <ClCompile Include="TCHtmlExample.cpp" />
+    <ClCompile Include="TCListBoxItem.cpp" />
+    <ClCompile Include="TCLoadWinRCFile.cpp" />
+    <ClCompile Include="TCRunConfim.cpp" />
+    <ClCompile Include="TCRunTimeManager.cpp" />
+    <ClCompile Include="TCSettingDia.cpp" />
+    <ClCompile Include="TCTableProperty.cpp" />
+    <ClCompile Include="TCTabListBox.cpp" />
+    <ClCompile Include="TCTabProperty.cpp" />
+    <ClCompile Include="TCView.cpp" />
+    <ClCompile Include="ToolTip\CeXDib.cpp" />
+    <ClCompile Include="ToolTip\Monitors.cpp" />
+    <ClCompile Include="ToolTip\MultiMonitor.cpp" />
+    <ClCompile Include="ToolTip\PPDrawManager.cpp" />
+    <ClCompile Include="ToolTip\PPHtmlDrawer.cpp" />
+    <ClCompile Include="ToolTip\PPTooltip.cpp" />
+    <ClCompile Include="ToolTip\XSuperTooltip.cpp" />
+    <ClCompile Include="UpdateSettingPage.cpp" />
+    <ClCompile Include="ViewTree.cpp" />
+    <ClCompile Include="VipCenterDoc.cpp" />
+    <ClCompile Include="VipCenterHtmlDia.cpp" />
+    <ClCompile Include="VipCenterView.cpp" />
+    <ClCompile Include="XInfoTip.cpp" />
+    <ClCompile Include="XInfoTipDebug.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TC.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="TC.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

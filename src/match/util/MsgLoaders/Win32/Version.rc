@@ -1,0 +1,1237 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winver.h"
+#include "winnt.h"
+
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 4,0,0,1
+ PRODUCTVERSION 4,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "CompanyName", "简单软件"
+            VALUE "FileDescription", "TC"
+            VALUE "FileVersion", "4.0.0.1"
+            VALUE "InternalName", "www.thunderc.com"
+            VALUE "LegalCopyright", "(C) 简单软件。保留所有权利。"
+            VALUE "OriginalFilename", "matchLib.dll"
+            VALUE "ProductName", "TC"
+            VALUE "ProductVersion", "4.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    2                       "notation '{0}' has already been declared"
+    3                       "attribute '{0}' has already been declared for element '{1}'"
+    4                       "encoding '{0}' from XML declaration or manually set contradicts the auto-sensed encoding; ignoring"
+    5                       "element '{0}' is referenced in a content model but was never declared"
+    6                       "element '{0}' is referenced in an ATTLIST but was never declared"
+    7                       "{0}"
+    8                       "unable to include document '{0}'"
+    9                       "unable to open text file target '{0}'"
+    10                      "unable to include resource '{0}'"
+    13                      "'{0}' is not allowed for the content of simpleType; only list, union, and restriction are allowed"
+    14                      "globally-defined complex type must have a name"
+    15                      "globally-declared attribute must have a name"
+END
+
+STRINGTABLE
+BEGIN
+    16                      "attribute declaration must have name or 'ref' attribute"
+    17                      "element declaration must have name or 'ref' attribute"
+    18                      "group declaration must have name or a 'ref' attribute"
+    19                      "attributeGroup declaration must have name or 'ref' attribute"
+    20                      "anonymous complexType in element '{0}' has name"
+    21                      "anonymous simpleType in element '{0}' has name"
+    22                      "content of element declaration must match (annotation?, (simpleType | complexType)?, (unique | key | keyref)*)"
+    23                      "invalid content in simple type '{0}'; only list, union, and restriction are allowed"
+    24                      "expected simpleType in list definition for type '{0}'"
+    25                      "list, union, or restriction content is invalid for type '{0}'"
+    26                      "invalid content in list definition for type '{0}'"
+    27                      "expected simpleType in restriction definition for type '{0}'"
+    28                      "facet '{0}' is already defined"
+    29                      "expected simpleType in union definition for type '{0}'"
+    30                      "content in simpleType definition is empty"
+    31                      "expected restriction or extension in simpleContent definition"
+END
+
+STRINGTABLE
+BEGIN
+    32                      "base attribute must be specified for restriction or extension definition"
+    33                      "expected restriction or extension in complexContent definition"
+    34                      "invalid content in 'schema' element"
+    35                      "invalid content for type '{0}'"
+    36                      "unknown simpleType '{0}'"
+    37                      "unknown complexType '{0}'"
+    38                      "prefix '{0}' can not be resolved to namespace URI"
+    39                      "referenced element '{0}' not found"
+    40                      "type '{0}:{1}' not found"
+    41                      "attribute '{0}' not found"
+    42                      "invalid element '{0}' in complex type definition"
+    43                      "base type '{0}' not found"
+    44                      "unable to create validator for '{0}'"
+    45                      "invalid element following simpleContent definition in complexType"
+    46                      "invalid element following complexContent definition in complexType"
+    47                      "attribute '{0}' cannot have both fixed and default values"
+END
+
+STRINGTABLE
+BEGIN
+    48                      "attribute '{0}' with default value must be optional"
+    49                      "attribute '{0}' declared more than once in the same scope"
+    50                      "attribute '{0}' cannot have both 'type' attribute and simpleType definition"
+    51                      "simpleType '{0}:{1}' for attribute '{2}' not found"
+    52                      "element '{0}' cannot have both fixed and default values"
+    53                      "invalid {0} name '{1}'"
+    54                      "element '{0}' cannot have both 'type' attribute and simpleType/complexType definition"
+    55                      "element '{0}' has fixed or default value and must have mixed simple or simple content model"
+    56                      "simpleType '{0}' that '{1}' extends has a value of the final attribute that does not permit extension"
+    57                      "type '{0}' specified as the base in simpleContent definition must not have complex content"
+    58                      "type '{0}' is a simple type and cannot be used in derivation by restriction in complexType definition"
+    59                      "invalid element following restriction or extension definition in simpleContent"
+    60                      "invalid element following restriction or extension definition in complexContent"
+    61                      "duplicate annotation in type '{0}'"
+    62                      "type '{0}' cannot be used in its own union, list, or restriction definition"
+    63                      "block value '{0}' is invalid"
+END
+
+STRINGTABLE
+BEGIN
+    64                      "final value '{0}' is invalid"
+    65                      "element '{0}' cannot be part of the substitution group headed by '{1}'"
+    66                      "element '{0}' has a type which does not derive from the type of the element at the head of the substitution group"
+    67                      "element '{0}' declared more than once in the same scope"
+    68                      "value '{0}' invalid for attribute '{1}'"
+    69                      "attribute '{0}' has both 'ref' attribute and inline simpleType definition or 'form' or 'type' attribute"
+    70                      "duplicate reference attribute '{0}:{1}' in complexType definition"
+    71                      "derivation by restriction is forbidden by either base type '{0}' or globally"
+    72                      "derivation by extension is forbidden by either base type '{0}' or globally"
+    73                      "base type specified in complexContent definition must be a complex type"
+    74                      "imported schema '{0}' has different target namespace '{1}'; expected '{2}'"
+    75                      "'schemaLocation' attribute must be specified in element '{0}'"
+    76                      "included schema '{0}' has different target namespace '{1}'"
+    77                      "at most one annotation is allowed"
+    78                      "content of attribute '{0}' must match (annotation?, simpleType?)"
+    79                      "attribute '{0}' must appear in global {1} declarations"
+END
+
+STRINGTABLE
+BEGIN
+    80                      "attribute '{0}' must appear in local {1} declarations"
+    81                      "attribute '{0}' cannot appear in global {1} declarations"
+    82                      "attribute '{0}' cannot appear in local {1} declarations"
+    83                      "minOccurs value '{0}' must not be greater than maxOccurs value '{1}'"
+    84                      "duplicate annotation in anyAttribute declaration"
+    85                      "global {0} declaration must have name"
+    86                      "circular definition in '{0}'"
+    87                      "global type '{0}:{1}' declared more than once or also declared as {2}"
+    88                      "global {0} '{1}' declared more than once"
+    89                      "invalid value '{0}' for whiteSpace facet; expected 'collapse'"
+    90                      "namespace of import declaration must be different from target namespace of importing schema"
+    91                      "importing schema must have target namespace if namespace in import declaration is not present"
+    92                      "element '{0}' cannot have value constraint '{1}' if its type is derived from ID"
+    93                      "element/attribute '{0}' is of NOTATION type"
+    94                      "element '{0}' has mixed content type and the content type's particle must be emptiable"
+    95                      "complexType definition has empty content but base type is not empty or does not have emptiable particle"
+END
+
+STRINGTABLE
+BEGIN
+    96                      "content types of base type '{0}' and derived type '{1}' must both be mixed or element-only"
+    97                      "derived content type is not a valid restriction of base content type"
+    98                      "derivation by extension or restriction is forbidden by either base type '{0}' or globally"
+    99                      "item type definition must have variety of atomic or union where all member types must be atomic"
+    100                     "group '{0}' must contain all, choice, or sequence compositor"
+    101                     "content of attributeGroup '{0}' must match (annotation?, ((attribute | attributeGroup)*, anyAttribute?))"
+    102                     "top-level compositor in a group must not have 'minOccurs' or 'maxOccurs' attribute"
+    103                     "{0} '{1}:{2}' not found"
+    104                     "group with the all compositor must only appear as content type of a complex type"
+    105                     "group with the all compositor constituting the content type of a complex type must have both minOccurs and maxOccurs equal 1"
+    106                     "element declaration in the all compositor must have minOccurs and maxOccurs equal 0 or 1"
+    107                     "attribute '{0}' is already defined in base"
+    108                     "intensional intersection of attribute wildcards must be expressible"
+    109                     "base type does not have any attributes"
+    110                     "attribute '{0}' has incompatible use value in the base"
+    111                     "type of attribute '{0}' must be derived by restriction from type of the corresponding attribute in the base"
+END
+
+STRINGTABLE
+BEGIN
+    112                     "attribute '{0}' does not have a fixed value or has a different fixed value from that of the base"
+    113                     "attribute '{0}' has invalid target namespace with respect to the base wildcard constraint or base has no wildcard"
+    114                     "attribute wildcard is present in the derived type but not in the base"
+    115                     "attribute wildcard in the derived type is not a valid subset of that in the base"
+    116                     "attribute '{0}' cannot have different use value in the derived type if the base attribute use value is 'prohibited'"
+    117                     "attribute wildcard in the derived type must be identical to or stricter than the one in the base"
+    118                     "unexpected '{0}' in the content of the all compositor; only elements are allowed"
+    119                     "redefined schema '{0}' has a different target namespace '{1}'"
+    120                     "simpleType in redefine must have a restriction definition"
+    121                     "simpleType base attribute in redefine must reference the original type with the same name"
+    122                     "complexType in redefine must have a restriction or extension definition"
+    123                     "complexType base attribute in redefine must reference the original type with the same name"
+    124                     "group '{0}' must have minOccurs and maxOccurs equal 1"
+    125                     "unable to find declaration in the schema being redefined corresponding to '{0}'"
+    126                     "group declaration in redefine may only contain one reference to itself"
+    127                     "attributeGroup declaration in redefine may only contain one reference to itself"
+END
+
+STRINGTABLE
+BEGIN
+    128                     "redefine declaration cannot contain '{0}'"
+    129                     "notation declaration '{0}:{1}' not found"
+    130                     "more than one identity constraint has name '{0}'"
+    131                     "identity constraint declaration must match (annotation?, selector, field+)"
+    132                     "key reference declaration '{0}' refers to unknown key '{1}'"
+    133                     "field cardinalities for keyref '{0}' and key '{1}' must match"
+    134                     "XPath expression is missing or empty"
+    135                     "fixed value in attribute reference is not set or differs from the fixed value of '{0}'"
+    136                     "attribute '{0}' is of ID type or type derived from ID and cannot have default/fixed value constraint"
+    137                     "attribute '{0}' is a subsequent attribute in this complex type with a type derived from ID"
+    138                     "attribute '{0}' is a subsequent attribute in this attribute group with a type derived from ID"
+    139                     "empty value illegal for 'targetNamespace' attribute; target namespace must be absent or contain non-empty value"
+    140                     "{0}"
+    141                     "'{0}' has already been included or redefined"
+    142                     "namespace '{0}' is referenced without import declaration"
+    143                     "all compositor that is part of a complex type definition must constitute the entire content of the definition"
+END
+
+STRINGTABLE
+BEGIN
+    144                     "annotation can only contain appinfo and documentation declarations"
+    145                     "invalid facet name '{0}'"
+    146                     "root element name of XML Schema document must be 'schema'"
+    147                     "circular substitution group in element '{0}'"
+    148                     "element '{0}' must be from the XML Schema namespace"
+    149                     "target namespace of attribute '{0}' cannot be http://www.w3.org/2001/XMLSchema-instance"
+    150                     "invalid namespace declaration"
+    151                     "namespace fix-up cannot be performed on DOM Level 1 node"
+    152                     "more than one anyAttribute declaration found in complex type declaration"
+    153                     "anyAttribute must not be followed by other declarations"
+    156                     "parser has encountered more than '{0}' entity expansions in the document; this is the limit imposed by the application"
+    157                     "expected comment or CDATA section"
+    158                     "attribute name expected"
+    159                     "notation name expected"
+END
+
+STRINGTABLE
+BEGIN
+    160                     "illegal repetition of elements in mixed content model"
+    161                     "default attribute declaration expected"
+    162                     "equal sign expected"
+    163                     "element name expected"
+    164                     "comment must start with <!--"
+    165                     "invalid document structure"
+    166                     "expected version, encoding, or standalone declaration"
+    167                     "invalid XML version declaration"
+    168                     "unsupported XML version '{0}'"
+    169                     "unterminated XML declaration"
+    170                     "invalid XML encoding declaration '{0}'"
+    171                     "invalid standalone declaration"
+    172                     "unterminated comment"
+    173                     "processing instruction name expected"
+    174                     "unterminated processing instruction"
+    175                     "invalid character 0x{0}"
+END
+
+STRINGTABLE
+BEGIN
+    176                     "unterminated start tag '{0}'"
+    177                     "attribute value expected"
+    178                     "unterminated end tag '{0}'"
+    179                     "expected type for attribute '{0}' of element '{1}'"
+    180                     "expected end of tag '{0}'"
+    181                     "expected tag name, comment, PI, or other markup"
+    182                     "invalid content after root element's end tag"
+    183                     "comment expected"
+    184                     "comment or processing instruction expected"
+    185                     "whitespace expected"
+    186                     "expected root element in DOCTYPE declaration"
+    187                     "quoted string expected"
+    188                     "public id expected"
+    189                     "invalid character 0x{0} in public id"
+    190                     "unterminated DOCTYPE declaration"
+    191                     "invalid character 0x{0} in internal subset"
+END
+
+STRINGTABLE
+BEGIN
+    192                     "unexpected whitespace"
+    193                     "invalid character 0x{1} in attribute value '{0}'"
+    194                     "markup declaration expected"
+    195                     "TEXT declaration is illegal at this point"
+    196                     "conditional section in internal subset"
+    197                     "parameter entity name expected"
+    198                     "unterminated entity declaration '{0}'"
+    199                     "invalid character reference"
+    200                     "unterminated character reference"
+    201                     "expected entity name for reference"
+    202                     "entity '{0}' not found"
+    203                     "unparsed entity reference '{0}' is invalid at this point"
+    204                     "unterminated entity reference '{0}'"
+    205                     "recursive entity expansion '{0}'"
+    206                     "partial markup in entity value"
+    207                     "unterminated element declaration '{0}'"
+END
+
+STRINGTABLE
+BEGIN
+    208                     "expected content specification for element '{0}'"
+    209                     "'*' expected"
+    210                     "mixed content model '{0}' not terminated properly"
+    211                     "system or public id expected"
+    212                     "unterminated notation declaration"
+    213                     "expected ',', '|', or ')'"
+    214                     "expected '|' or ')'"
+    215                     "expected ',', '|', or ')' in content model of element '{0}'"
+    216                     "expected enumeration value for attribute '{0}'"
+    217                     "expected '|' or ')'"
+    218                     "unterminated entity literal"
+    219                     "unmatched end tag detected"
+    220                     "'(' expected"
+    221                     "attribute '{0}' is already specified for element '{1}'"
+    222                     "'<' character cannot be used in attribute value '{0}'; use &lt; instead"
+    223                     "leading surrogate character is not followed by a legal second character"
+END
+
+STRINGTABLE
+BEGIN
+    224                     "expected ']]>' sequence to end conditional section"
+    225                     "expected INCLUDE or IGNORE at this point"
+    226                     "expected '[' to follow INCLUDE or IGNORE"
+    227                     "unexpected end of entity '{0}'"
+    228                     "parameter entity propagated out of internal/external subset"
+    229                     "unmatched ']' character detected"
+    230                     "parameter entity references are not allowed inside markup in internal subset"
+    231                     "entity propagated out of the content section into miscellaneous"
+    232                     "expected &# to be followed by a numeric character value"
+    233                     "'[' expected"
+    234                     "']]>' sequence is not allowed in character data"
+    235                     "'--' sequence is illegal in comment"
+    236                     "unterminated CDATA section"
+    237                     "NDATA expected"
+    238                     "NDATA is illegal for parameter entities"
+    239                     "hex radix character references must use 'x', not 'X'"
+END
+
+STRINGTABLE
+BEGIN
+    240                     "{0} declaration already seen"
+    241                     "XML declarations must be in this order: version, encoding, standalone"
+    242                     "external entity cannot be referred to from attribute value"
+    243                     "XML or TEXT declaration must start with '<?xml ', not '<?XML '"
+    244                     "expected literal entity value or public/system id"
+    245                     "'{0}' is not a valid digit for the specified radix"
+    246                     "input ended before all started tags were ended; last tag started is '{0}'"
+    247                     "nested CDATA section illegal"
+    248                     "prefix '{0}' can not be resolved to namespace URI"
+    249                     "start and the end tags are in different entities"
+    250                     "XML document cannot be empty"
+    251                     "CDATA section is illegal outside the root element"
+    252                     "unexpected trailing surrogate character"
+    253                     "processing instruction cannot start with 'xml'"
+    254                     "XML or TEXT declaration must start at line 1, column 1"
+    255                     "version declaration is required in XML declaration"
+END
+
+STRINGTABLE
+BEGIN
+    256                     "standalone declaration is only legal in the main XML entity"
+    257                     "encoding declaration is required in TEXT declaration"
+    258                     "colon is illegal in names when namespaces are enabled"
+    259                     "{0}"
+    260                     "schemaLocation does not contain namespace-location pairs"
+    261                     "fatal error during schema scan"
+    262                     "reference to external entity declaration '{0}' is illegal in standalone document"
+    263                     "partial markup in parameter entity replacement text in complete declaration"
+    264                     "invalid namespace value in prefix-namespace mapping '{0}'"
+    265                     "prefix 'xmlns' cannot be explicitly bound to namespace"
+    266                     "namespace for 'xmlns' cannot be explicitly bound to prefix"
+    267                     "prefix 'xml' cannot be bound to namespace other than its canonical namespace"
+    268                     "namespace for 'xml' cannot be bound to prefix other than 'xml'"
+    269                     "element '{0}' cannot have 'xmlns' as its prefix"
+    270                     "restriction must contain simpleType definition"
+    271                     "invalid root element '{0}' in DOCTYPE declaration"
+END
+
+STRINGTABLE
+BEGIN
+    272                     "invalid element name '{0}'"
+    273                     "invalid attribute name '{0}'"
+    274                     "invalid entity reference name '{0}'"
+    275                     "DOCTYPE declaration already seen"
+    276                     "fallback element is not a direct child of include element"
+    277                     "include element without 'href' attribute"
+    278                     "include element with XPointer specification; XPointer is not yet supported"
+    279                     "invalid 'parse' attribute value '{0}'; expected 'text' or 'xml'"
+    280                     "multiple fallback elements in document '{0}'"
+    281                     "include failed and no fallback element found in document '{0}'"
+    282                     "circular inclusion in document '{0}'"
+    283                     "self-inclusion in document '{0}'"
+    284                     "element '{0}' is not allowed as a child of include element"
+    285                     "included notation '{0}' conflicts with notation already defined"
+    286                     "included entity '{0}' conflicts with entity already defined"
+END
+
+STRINGTABLE
+BEGIN
+    16386                   "no declaration found for element '{0}'"
+    16387                   "no declaration found for attribute '{0}'"
+    16388                   "notation '{0}' is referenced but was never declared"
+    16389                   "root element differs from that declared in DOCTYPE"
+    16390                   "missing required attribute '{0}'"
+    16391                   "element '{0}' is not allowed for content model '{1}'"
+    16392                   "ID attribute must be #IMPLIED or #REQUIRED"
+    16393                   "attribute cannot have empty value"
+    16394                   "element '{0}' has already been declared"
+    16395                   "element '{0}' has more than one ID attribute"
+    16396                   "ID value '{0}' has already been used"
+    16397                   "ID attribute '{0}' is referenced but was never declared"
+    16398                   "attribute '{0}' refers to undeclared notation '{1}'"
+    16399                   "element '{0}' is specified in DOCTYPE but was never declared"
+END
+
+STRINGTABLE
+BEGIN
+    16400                   "empty content is not valid for content model '{0}'"
+    16401                   "attribute '{0}' is not declared for element '{1}'"
+    16402                   "value '{0}' for attribute '{1}' of type ENTITY/ENTITIES must refer to external, unparsed entity"
+    16403                   "attribute '{0}' refers to unknown entity '{1}'"
+    16404                   "attribute of type ID/IDREF/IDREFS/ENTITY/ENTITIES/NOTATION cannot contain colon when namespaces are enabled"
+    16405                   "missing elements in content model '{0}'"
+    16406                   "no character data is allowed by content model"
+    16407                   "value '{0}' for attribute '{1}' does not match its type's defined enumeration or notation list"
+    16408                   "value '{0}' for attribute '{1}' is invalid Name or NMTOKEN value"
+    16409                   "attribute '{0}' does not allow multiple values"
+    16410                   "attribute '{0}' has value '{1}' that does not match its #FIXED value '{2}'"
+    16411                   "element types cannot be duplicated in mixed content model"
+    16412                   "{0} is not supported"
+    16413                   "'{0}' is not allowed in the {1} compositor; only element, group, choice, sequence, and any are allowed"
+    16414                   "base type '{0}' not found in '{1}' definition"
+    16415                   "{0} declaration with 'ref' attribute cannot have content"
+END
+
+STRINGTABLE
+BEGIN
+    16416                   "{0}"
+    16417                   "prohibited attribute '{0}' is present"
+    16418                   "illegal 'xml:space' declaration"
+    16419                   "schema document '{0}' has different target namespace from the one specified in instance document '{1}'"
+    16420                   "element '{0}' is of simple type and cannot have elements in its content"
+    16421                   "unable to find validator for simple type of element '{0}'"
+    16422                   "grammar not found for namespace '{0}'"
+    16423                   "{0}"
+    16424                   "'xsi:nil' specified for non-nillable element '{0}'"
+    16425                   "element '{0}' is nil and must be empty"
+    16426                   "content of element '{0}' differs from its declared fixed value"
+    16427                   "unable to find validator for simple type of attribute '{0}'"
+    16428                   "error during schema scan"
+    16429                   "element '{0}' must be qualified"
+    16430                   "element '{0}' must be unqualified"
+    16431                   "reference to external entity declaration '{0}' is not allowed in standalone document"
+END
+
+STRINGTABLE
+BEGIN
+    16432                   "attribute '{0}' in element '{1}' has default value and must be specified in standalone document"
+    16433                   "attribute '{0}' must not be changed by normalization in standalone document"
+    16434                   "whitespace must not occur between externally declared elements with element content in standalone document"
+    16435                   "entity '{0}' not found"
+    16436                   "partial markup in parameter entity replacement text"
+    16437                   "failed to validate '{0}'"
+    16438                   "complex type '{0}' violates the unique particle attribution rule in its components '{1}' and '{2}'"
+    16439                   "abstract type '{0}' cannot be used in 'xsi:type'"
+    16440                   "element '{0}' is abstract; use non-abstract member of its substitution group instead"
+    16441                   "type of element '{0}' is abstract; use 'xsi:type' to specify non-abstract type instead"
+    16442                   "type '{0}' specified in 'xsi:type' cannot be resolved"
+    16443                   "type '{0}' specified in 'xsi:type' does not derive from type of element '{1}'"
+    16444                   "element '{0}' does not permit substitution"
+    16445                   "complex type '{0}' does not permit substitution"
+    16446                   "attribute '{0}' must be qualified"
+    16447                   "attribute '{0}' must be unqualified"
+END
+
+STRINGTABLE
+BEGIN
+    16448                   "identity constraint field matches more than one value within the scope of its selector; field must match unique value"
+    16449                   "unknown identity constraint field"
+    16450                   "element '{0}' has identity constraint key with no value"
+    16451                   "element '{0}' does not have enough values for identity constraint key '{1}'"
+    16452                   "element '{0}' declares identity constraint key that matches nillable element"
+    16453                   "element '{0}' declares duplicate identity constraint unique values"
+    16454                   "element '{0}' declares duplicate identity constraint key values"
+    16455                   "keyref '{0}' refers to out of scope key/unique"
+    16456                   "identity constraint key for element '{0}' not found"
+    16457                   "non-whitespace characters are not allowed in schema declarations other than appinfo and documentation"
+    16458                   "element '{0}' declared EMPTY but has attribute '{1}' of type NOTATION"
+    16459                   "element '{0}' declared EMPTY and cannot have content, not even entity references, comments, PIs, or whitespaces"
+    16460                   "element '{0}' has more than one attribute of type NOTATION"
+    16461                   "attribute '{0}' has non-distinct token '{1}'"
+    16462                   "content model of element '{0}' does not allow escaped whitespaces"
+END
+
+STRINGTABLE
+BEGIN
+    8194                    "unable to open primary document entity '{0}'"
+    8197                    "index is beyond array bounds"
+    8198                    "new array size is less than the old"
+    8199                    "index is beyond maximum attribute index"
+    8200                    "invalid AttType value"
+    8201                    "invalid DefAttType value"
+    8202                    "bit index is beyond set size"
+    8203                    "bit sets have different sizes"
+    8204                    "no more buffers available"
+    8205                    "buffer is not found in the manager's pool"
+    8206                    "NULL pointer"
+    8207                    "binary operation node has unary node type"
+END
+
+STRINGTABLE
+BEGIN
+    8208                    "content type must be mixed or children"
+    8209                    "PCDATA node is illegal at this point"
+    8210                    "unary operation node has binary node type"
+    8211                    "unknown content model type"
+    8212                    "unknown content spec type"
+    8213                    "parent element has no content spec node"
+    8214                    "invalid spec type for '{0}'"
+    8215                    "unknown creation reason value"
+    8216                    "element stack is empty"
+    8217                    "pop operation requested on empty stack"
+    8218                    "parent operation requested with only one element in stack"
+    8219                    "no more elements in enumerator"
+    8220                    "unable to open file '{0}'"
+    8221                    "unable to query file position"
+    8222                    "unable to close file"
+    8223                    "unable to seek to the end of file"
+END
+
+STRINGTABLE
+BEGIN
+    8224                    "unable to seek to the required position in file"
+    8225                    "unable to duplicate handle"
+    8226                    "unable to read data from file"
+    8227                    "unable to write data to file"
+    8228                    "unable to reset file position to the beginning"
+    8229                    "unable to get file size"
+    8230                    "unable to determine file base pathname"
+    8231                    "parsing in progress"
+    8232                    "DOCTYPE declaration was seen but installed validator does not support DTD"
+    8233                    "unable to open DTD document '{0}'"
+    8234                    "unable to open external entity '{0}'"
+    8235                    "unexpected end of input"
+    8236                    "zero hash modulus"
+    8237                    "hashing key produced invalid hash"
+    8238                    "no such key in hash table"
+    8239                    "unable to destroy mutex"
+END
+
+STRINGTABLE
+BEGIN
+    8240                    "internal error in NetAccessor"
+    8241                    "NetAccessor is unable to determine length of remote file"
+    8242                    "unable to initialize NetAccessor"
+    8243                    "unable to resolve host/address '{0}'"
+    8244                    "unable to create socket for URL '{0}'"
+    8245                    "unable to connect socket for URL '{0}'"
+    8246                    "unable to write to socket for URL '{0}'"
+    8247                    "unable to read from socket for URL '{0}'"
+    8248                    "specified HTTP method is not supported by NetAccessor"
+    8249                    "element '{0}' is already in pool"
+    8250                    "invalid pool element id"
+    8251                    "zero hash modulus"
+    8252                    "reader id not found"
+    8253                    "invalid auto encoding value"
+    8254                    "unable to decode first line in entity '{0}'"
+    8255                    "XML or TEXT declaration '{0}' cannot have NEL or lsep"
+END
+
+STRINGTABLE
+BEGIN
+    8256                    "current transcoding service does not support source offset information"
+    8257                    "EBCDIC file must provide encoding declaration"
+    8258                    "unable to open primary document entity '{0}'"
+    8259                    "unbalanced start/end tags"
+    8260                    "call to scanNext is illegal at this point"
+    8261                    "index is past top of stack"
+    8262                    "empty stack"
+    8263                    "target buffer cannot have zero max size"
+    8264                    "unsupported radix; expected 2, 8, 10, or 16"
+    8265                    "target buffer is too small"
+    8266                    "start index is past the end of string"
+    8267                    "string representation overflows output binary result"
+    8268                    "illegal string pool id"
+    8269                    "char 0x{0} is not representable in '{1}' encoding"
+    8270                    "invalid multi-byte sequence"
+    8271                    "code point 0x{0} is invalid for '{1}' encoding"
+END
+
+STRINGTABLE
+BEGIN
+    8272                    "leading surrogate followed by invalid trailing surrogate"
+    8273                    "unable to create converter for '{0}' encoding"
+    8274                    "malformed URL"
+    8275                    "unsupported protocol in URL"
+    8276                    "URL protocol '{0}' is unsupported"
+    8277                    "missing protocol prefix"
+    8278                    "expected '//' after protocol"
+    8279                    "base part of URL cannot be relative"
+    8280                    "port field must be 16-bit decimal number"
+    8281                    "invalid byte '{1}' at position {0} of a {2}-byte sequence"
+    8282                    "invalid bytes '{0}' and '{1}' of a 3-byte sequence"
+    8283                    "irregular bytes '{0}' and '{1}' of a 3-byte sequence"
+    8284                    "invalid bytes '{0}' and '{1}' of a 4-byte sequence"
+    8285                    "exceeded byte limit at byte '{0}' in a {1}-byte sequence"
+    8286                    "index is beyond vector bounds"
+    8287                    "invalid element id"
+END
+
+STRINGTABLE
+BEGIN
+    8288                    "internal subset is not allowed when reusing the grammar"
+    8289                    "unknown recognizer encoding"
+    8290                    "illegal character at offset {0} in regular expression '{1}'"
+    8291                    "invalid reference number"
+    8292                    "character expected after backslash"
+    8293                    "unexpected '?'; '(?:', '(?=', '(?!', '(?<', '(?#', or '(?>' expected"
+    8294                    "'(?<=' or '(?<!' expected"
+    8295                    "unterminated comment"
+    8296                    "')' expected"
+    8297                    "unexpected end of pattern in modifier group"
+    8298                    "':' expected"
+    8299                    "unexpected end of pattern in conditional group"
+    8300                    "back reference, anchor, lookahead, or lookbehind expected in conditional pattern"
+    8301                    "more than three choices in conditional group"
+    8302                    "character in the U+0040-U+005f range must follow '\\c'"
+    8303                    "'{' expected before category character"
+END
+
+STRINGTABLE
+BEGIN
+    8304                    "property name must be closed with '}'"
+    8305                    "unexpected meta character"
+    8306                    "unknown property"
+    8307                    "POSIX character class must be closed with ':]'"
+    8308                    "unexpected end of pattern in character class"
+    8309                    "unknown name for POSIX character class"
+    8310                    "']' expected"
+    8311                    "'{0}' is invalid character range; use '\\{1}' instead"
+    8312                    "'[' expected"
+    8313                    "')', '-[', '+[', or '&[' expected"
+    8314                    "range end code point '{0}' is less than start code point '{1}'"
+    8315                    "invalid Unicode hex notation"
+    8316                    "'\\ x{' must be closed with '}'"
+    8317                    "invalid Unicode code point"
+    8318                    "anchor cannot be present at this point"
+    8319                    "'{0}' is invalid character escape sequence"
+END
+
+STRINGTABLE
+BEGIN
+    8320                    "invalid quantifier in '{0}'; digit expected"
+    8321                    "invalid quantifier in '{0}'; invalid quantity or missing  '}'"
+    8322                    "invalid quantifier in '{0}'; digit or '}' expected"
+    8323                    "invalid quantifier in '{0}'; min quantity must be less than or equal max quantity"
+    8324                    "invalid quantifier in '{0}'; quantity value overflow"
+    8325                    "XML Schema was seen but installed validator does not support XML Schema"
+    8326                    "SubstitutionGroupComparator has no grammar resolver"
+    8327                    "invalid length value '{0}'"
+    8328                    "invalid maxLength value '{0}'"
+    8329                    "invalid minLength value '{0}'"
+    8330                    "length value '{0}' must be a non-negative integer"
+    8331                    "maxLength value '{0}' must be a non-negative integer"
+    8332                    "minLength value '{0}' must be a non-negative integer"
+    8333                    "both length and maxLength cannot be present at the same time"
+    8334                    "both length and minLength cannot be present at the same time"
+    8335                    "maxLength value '{0}' must be greater than minLength value '{1}'"
+END
+
+STRINGTABLE
+BEGIN
+    8336                    "invalid facet tag '{0}'"
+    8337                    "length value '{0}' must be equal to length value '{1}' in the base"
+    8338                    "minLength value '{0}' must be greater than or equal to minLength value '{1}' in the base"
+    8339                    "minLength value '{0}' must be less than or equal to maxLength value '{1}' in the base"
+    8340                    "maxLength value '{0}' must be less than or equal to maxLength value '{1}' in the base"
+    8341                    "maxLength value '{0}' must be greater than or equal to minLength value '{1}' in the base"
+    8342                    "length value '{0}' must be greater than or equal to minLength value '{1}' in the base"
+    8343                    "length value '{0}' must be less than or equal to maxLength value '{1}' in the base"
+    8344                    "minLength value '{0}' must be less than or equal to length value '{1}' in the base"
+    8345                    "maxLength value '{0}' must be greater than or equal to length value '{1}' in the base"
+    8346                    "enumeration value '{0}' must be from the value space of the base"
+    8347                    "whiteSpace value '{0}' must be one of 'preserve', 'replace', or 'collapse'"
+    8348                    "whiteSpace value is 'preserve' or 'replace' while base type whiteSpace value is 'collapse'"
+    8349                    "whiteSpace value is 'preserve' while base type whiteSpace value is 'replace'"
+    8350                    "invalid maxInclusive value '{0}'"
+    8351                    "invalid maxExclusive value '{0}'"
+END
+
+STRINGTABLE
+BEGIN
+    8352                    "invalid minInclusive value '{0}'"
+    8353                    "invalid minExclusive value '{0}'"
+    8354                    "invalid totalDigits value '{0}'"
+    8355                    "invalid fractionDigits value '{0}'"
+    8356                    "totalDigits value '{0}' must be a positive integer"
+    8357                    "fractionDigits value '{0}' must be a non-negative integer"
+    8358                    "both maxInclusive and maxExclusive cannot be present at the same time"
+    8359                    "both minInclusive and minExclusive cannot be present at the same time"
+    8360                    "maxExclusive value '{0}' must be greater than minExclusive value '{1}'"
+    8361                    "maxExclusive value '{0}' must be greater than minInclusive value '{1}'"
+    8362                    "maxInclusive value '{0}' must be greater than minExclusive value '{1}'"
+    8363                    "maxInclusive value '{0}' must be greater than minInclusive value '{1}'"
+    8364                    "totalDigits value '{0}' must be greater than fractionDigits value '{1}'"
+    8365                    "maxInclusive value '{0}' must be less than maxExclusive value '{1}' in the base"
+    8366                    "maxInclusive value '{0}' must be less than or equal to maxInclusive value '{1}' in the base"
+    8367                    "maxInclusive value '{0}' must be greater than or equal to minInclusive value '{1}' in the base"
+END
+
+STRINGTABLE
+BEGIN
+    8368                    "maxInclusive value '{0}' must be greater than minExclusive value '{1}' in the base"
+    8369                    "maxExclusive value '{0}' must be less than or equal to maxExclusive value '{1}' in the base"
+    8370                    "maxExclusive value '{0}' must be less than or equal to maxInclusive value '{1}' in the base"
+    8371                    "maxExclusive value '{0}' must be greater than minInclusive value '{1}' in the base"
+    8372                    "maxExclusive value '{0}' must be greater than minExclusive value '{1}' in the base"
+    8373                    "minExclusive value '{0}' must be less than maxExclusive value '{1}' in the base"
+    8374                    "minExclusive value '{0}' must be less than or equal to maxInclusive value '{1}' in the base"
+    8375                    "minExclusive value '{0}' must be greater than minInclusive value '{1}' in the base"
+    8376                    "minExclusive value '{0}' must be greater than minExclusive value '{1}' in the base"
+    8377                    "minInclusive value '{0}' must be less than maxExclusive value '{1}' in the base"
+    8378                    "minInclusive value '{0}' must be less than or equal to maxInclusive value '{1}' in the base"
+    8379                    "minInclusive value '{0}' must be greater than or equal to minInclusive value '{1}' in the base"
+    8380                    "minInclusive value '{0}' must be greater than minExclusive value '{1}' in the base"
+    8381                    "maxInclusive value '{0}' must be from the base type value space"
+    8382                    "maxExclusive value '{0}' must be from the base type value space"
+    8383                    "minInclusive value '{0}' must be from the base type value space"
+END
+
+STRINGTABLE
+BEGIN
+    8384                    "minExclusive value '{0}' must be from the base type value space"
+    8385                    "totalDigits value '{0}' must be less than or equal to totalDigits value '{1}' in the base"
+    8386                    "fractionDigits value '{0}' must be less than or equal to totalDigits value '{1}' in the base"
+    8387                    "fractionDigits value '{0}' must be less than or equal to fractionDigits value '{1}' in the base"
+    8388                    "maxInclusive value '{0}' must be equal to fixed maxInclusive value '{1}' in the base"
+    8389                    "maxExclusive value '{0}' must be equal to fixed maxExclusive value '{1}' in the base"
+    8390                    "minInclusive value '{0}' must be equal to fixed minInclusive value '{1}' in the base"
+    8391                    "minExclusive value '{0}' must be equal to fixed minExclusive value '{1}' in the base"
+    8392                    "totalDigits value '{0}' must be equal to fixed totalDigits value '{1}' in the base"
+    8393                    "fractionDigits value '{0}' must be equal to fixed fractionDigits value '{1}' in the base"
+    8394                    "maxLength value '{0}' must be equal to fixed maxLength value '{1}' in the base"
+    8395                    "minLength value '{0}' must be equal to fixed minLength value '{1}' in the base"
+    8396                    "whiteSpace value '{0}' must be equal to fixed whiteSpace value '{1}' in the base"
+    8397                    "internal error while processing fixed facet"
+    8398                    "list itemType is empty"
+    8399                    "union memberTypes is empty"
+END
+
+STRINGTABLE
+BEGIN
+    8400                    "restriction union base is empty"
+    8401                    "restriction union base is '{0}' instead of union"
+    8402                    "value '{0}' does not match regular expression facet '{1}'"
+    8403                    "value '{0}' is invalid Base64-encoded binary"
+    8404                    "value '{0}' is invalid Hex-encoded binary"
+    8405                    "value '{0}' has length '{1}' which exceeds maxLength facet value '{2}'"
+    8406                    "value '{0}' has length '{1}' which is less than minLength facet value '{2}'"
+    8407                    "value '{0}' has length '{1}' which is not equal to length facet value '{2}'"
+    8408                    "value '{0}' not in enumeration"
+    8409                    "value '{0}' has '{1}' total digits which exceeds totalDigits facet value '{2}'"
+    8410                    "value '{0}' has '{1}' fraction digits which exceeds fractionDigits facet value '{2}'"
+    8411                    "value '{0}' must be less than or equal to maxInclusive facet value '{1}'"
+    8412                    "value '{0}' must be less than maxExclusive facet value '{1}'"
+    8413                    "value '{0}' must be greater than or equal to minInclusive facet value '{1}'"
+    8414                    "value '{0}' must be greater than or equal to minExclusive facet value '{1}'"
+    8415                    "value '{0}' is not whitespace replaced"
+END
+
+STRINGTABLE
+BEGIN
+    8416                    "value '{0}' is not whitespace collapsed"
+    8417                    "value '{0}' is invalid NCName"
+    8418                    "value '{0}' is invalid {1}"
+    8419                    "ID value '{0}' is not unique"
+    8420                    "value '{0}' is invalid ENTITY"
+    8421                    "value '{0}' is invalid QName"
+    8422                    "NOTATION '{0}' must be valid QName"
+    8423                    "value '{0}' does not match any member types of the union"
+    8424                    "value '{0}' is invalid anyURI"
+    8425                    "empty string encountered"
+    8426                    "string contains only whitespaces"
+    8427                    "more than one decimal point encountered"
+    8428                    "invalid character encountered"
+    8429                    "NULL pointer encountered"
+    8430                    "unable to construct URI with NULL/empty {0}"
+    8431                    "{0} '{1}' can only be set for a generic URI"
+END
+
+STRINGTABLE
+BEGIN
+    8432                    "{0} contains invalid escape sequence '{1}'"
+    8433                    "{0} contains invalid character '{1}'"
+    8434                    "{0} cannot be NULL"
+    8435                    "'{1}' is not conformant to {0}"
+    8436                    "no scheme found in URI"
+    8437                    "{0} '{1}' may not be specified if host is not specified"
+    8438                    "{0} '{1}' may not be specified if path is not specified"
+    8439                    "port number '{0}' must be in the (0,65535) range"
+    8440                    "internal error while validating '{0}'"
+    8441                    "result not set"
+    8442                    "internal error in CompactRanges"
+    8443                    "mismatched type in MergeRanges"
+    8444                    "internal error in SubtractRanges"
+    8445                    "internal error in IntersectRanges"
+    8446                    "argument must be RangeToken"
+    8447                    "invalid category name '{0}'"
+END
+
+STRINGTABLE
+BEGIN
+    8448                    "keyword '{0}' not found"
+    8449                    "reference number must be greater than zero"
+    8450                    "option '{0}' unknown"
+    8451                    "unknown token type"
+    8452                    "unable to get RangeToken for '{0}'"
+    8453                    "not supported"
+    8454                    "invalid child index"
+    8455                    "replace pattern cannot match zero-length string"
+    8456                    "invalid replace pattern"
+    8457                    "enabling NEL option can only be done once per process"
+    8458                    "out of memory"
+    8459                    "operation is not allowed"
+    8460                    "selector cannot select attribute"
+    8461                    "'|' at the beginning of XPath expression is illegal"
+    8462                    "'||' in XPath expression is illegal"
+    8463                    "missing attribute name in XPath expression"
+END
+
+STRINGTABLE
+BEGIN
+    8464                    "unexpected XPath token; expected qname, any, or namespace test"
+    8465                    "prefix '{0}' used in XPath expression can not be resolved to namespace URI"
+    8466                    "'::' in XPath expression is illegal"
+    8467                    "expected step following 'child' token in XPath expression"
+    8468                    "expected step following '//' in XPath expression"
+    8469                    "expected step following '/' in XPath expression"
+    8470                    "'/' not allowed after '//' in XPath expression"
+    8471                    "'//' only allowed after '.' at the beginning of XPath expression"
+    8472                    "'/' at the beginning of XPath expression is illegal"
+    8473                    "root element selection is illegal in XPath expression"
+    8474                    "empty XPath expression"
+    8475                    "XPath expression cannot end with '|'"
+    8476                    "invalid character '{0}' in XPath expression"
+    8477                    "unsupported XPath token"
+    8478                    "fractional values not supported in XPath expression"
+    8479                    "invalid dateTime value '{0}'"
+END
+
+STRINGTABLE
+BEGIN
+    8480                    "missing 'T' separator in dateTime value '{0}'"
+    8481                    "invalid gDay value '{0}'"
+    8482                    "invalid gMonth value '{0}'"
+    8483                    "invalid gMonthDay value '{0}'"
+    8484                    "invalid duration value '{0}'"
+    8485                    "duration value '{0}' must start with '-' or 'P'"
+    8486                    "duration value '{0}' must contain 'P'"
+    8487                    "duration value '{0}' can contain '-' only as the first character"
+    8488                    "duration value '{0}' contains invalid text before 'T'"
+    8489                    "duration value '{0}' has no time component after 'T'"
+    8490                    "duration value '{0}' must have at least one component"
+    8491                    "duration value '{0}' must have at least one digit after '.'"
+    8492                    "incomplete date value '{0}'"
+    8493                    "invalid date value '{0}'"
+    8494                    "incomplete time value '{0}'"
+    8495                    "invalid time value '{0}'"
+END
+
+STRINGTABLE
+BEGIN
+    8496                    "expected fractional seconds after '.' in time value '{0}'"
+    8497                    "incomplete gYearMonth value '{0}'"
+    8498                    "invalid gYearMonth value '{0}'"
+    8499                    "invalid gYear value '{0}'"
+    8500                    "year value '{0}' must follow 'CCYY' format"
+    8501                    "invalid leading zero in gYear value '{0}'"
+    8502                    "month component missing in gYearMonth value '{0}'"
+    8503                    "time zone expected in '{0}'"
+    8504                    "unexpected text after 'Z' in time zone value '{0}'"
+    8505                    "invalid time zone value '{0}'"
+    8506                    "illegal year value '{0}'"
+    8507                    "month value '{0}' must be between 1 and 12"
+    8508                    "day value '{0}' must be between 1 and {1}"
+    8509                    "hours value '{0}' must be between 0 and 23"
+    8510                    "minutes value '{0}' must be between 0 and 59"
+    8511                    "seconds value '{0}' must be between 0 and 60"
+END
+
+STRINGTABLE
+BEGIN
+    8512                    "minutes value '{0}' must be between 0 and 59"
+    8513                    "derived by restriction complex type has content while base type is empty"
+    8514                    "namespace of element '{0}' is not allowed by wildcard in the base"
+    8515                    "occurrence range of element '{0}' is not a valid restriction of base element's range"
+    8516                    "element name/namespace in restriction does not match that of corresponding element in the base"
+    8517                    "element '{0}' is nillable in the restriction while it is non-nillable in the base"
+    8518                    "element '{0}' is either not fixed or is fixed to a different value compared to corresponding element in the base"
+    8519                    "disallowed substitutions for element '{0}' are not a superset of those for corresponding element in the base"
+    8520                    "element '{0}' has type that does not derive from type of corresponding element in the base"
+    8521                    "element '{0}' has fewer identity constraints compared to corresponding element '{1}' in the base"
+    8522                    "element '{0}' has identity constraint that does not appear in corresponding element '{1}' in the base"
+    8523                    "occurrence range of group is not a valid restriction of occurrence range of base group"
+    8524                    "no complete functional mapping between particles"
+    8525                    "forbidden restriction of any particle"
+    8526                    "forbidden restriction of all compositor"
+    8527                    "forbidden restriction of choice compositor"
+END
+
+STRINGTABLE
+BEGIN
+    8528                    "forbidden restriction of sequence compositor"
+    8529                    "occurrence range of wildcard is not a valid restriction of base wildcard's range"
+    8530                    "wildcard is not a subset of corresponding wildcard in the base"
+    8531                    "occurrence range of group is not a restriction of base wildcard's range"
+    8532                    "no complete functional mapping between particles"
+    8533                    "no complete functional mapping between particles"
+    8534                    "invalid content spec node type"
+    8535                    "NodeIDMap exceeds largest available size"
+    8536                    "ProtoType has NULL class name"
+    8537                    "ProtoType name length '{0}' differs from expected '{1}'"
+    8538                    "ProtoType name '{0}' differs from expected '{1}'"
+    8539                    "InputStream read '{0}' is less than required '{1}'"
+    8540                    "InputStream read '{0}' is beyond available buffer size '{1}'"
+    8541                    "storing violation"
+    8542                    "store buffer violation '{0}', '{1}'"
+    8543                    "object tag '{0}' exceeds load pool upper boundary '{1}'"
+END
+
+STRINGTABLE
+BEGIN
+    8544                    "load pool size '{0}' does not tally with object count '{1}'"
+    8545                    "loading violation"
+    8546                    "load buffer violation '{0}', '{1}'"
+    8547                    "invalid class index '{0}', '{1}'"
+    8548                    "invalid checkFillBuffer size '{0}'"
+    8549                    "invalid checkFlushBuffer size '{0}'"
+    8550                    "invalid NULL pointer encountered '{0}'"
+    8551                    "createObject fails"
+    8552                    "object count '{0}' exceeds upper boundary '{1}'"
+    8553                    "grammar pool is empty"
+    8554                    "grammar pool is not empty"
+    8555                    "string pool is not empty"
+    8556                    "storer level '{0}' does not match loader level '{1}'"
+    8557                    "undefined prefix in QName value '{0}'"
+END
+
+STRINGTABLE
+BEGIN
+    24578                   "dummy"
+    24579                   "index or size is negative, or greater than the allowed value"
+    24580                   "specified range of text does not fit into DOMString"
+    24581                   "attempt is made to insert a node where it is not permitted"
+    24582                   "node is used in a different document than the one that created it"
+    24583                   "invalid or illegal XML character"
+    24584                   "node does not support storing data"
+    24585                   "attempt is made to modify an object where modifications are not allowed"
+    24586                   "attempt is made to reference a node in a context where it does not exist"
+    24587                   "implementation does not support the requested type of object or operation"
+    24588                   "attempt is made to add an attribute that is already in use elsewhere"
+    24589                   "attempt is made to use an object that is not or is no longer usable"
+    24590                   "invalid or illegal string"
+    24591                   "attempt is made to modify the type of the underlying object"
+END
+
+STRINGTABLE
+BEGIN
+    24592                   "attempt is made to create or change an object in a way which is incorrect with respect to namespaces"
+    24593                   "parameter or requested operation is not supported by the underlying object"
+    24594                   "call to a method such as insertBefore or removeChild would make the node invalid with respect to document grammar"
+    24595                   "type of an object is incompatible with the expected type of the parameter associated with the object"
+    24596                   "dummy"
+    24597                   "boundary points of a range do not meet specific requirements"
+    24598                   "container of a range boundary point is set to a node of an invalid type or to a node with an ancestor of an invalid type"
+    24599                   "dummy"
+    24600                   "failed to load a document or an XML fragment using DOMLSParser"
+    24601                   "failed to serialize a DOM node using DOMLSSerializer"
+    24602                   "dummy"
+    24603                   "expression has incorrect syntax or contains XPath features not supported by the XML Schema XPath subset"
+    24604                   "requested result type not supported"
+    24605                   "no current result in the result object"
+    24606                   "nested CDATA sections"
+    24607                   "unrepresentable character"
+END
+
+STRINGTABLE
+BEGIN
+    24608                   "unrecognized node type"
+    24609                   "parsing in progress"
+    24610                   "parsing aborted by the user"
+    24611                   "parsing failed"
+END
+
+STRINGTABLE
+BEGIN
+    480                     "不完整的预定义语句,只有#头,找不到include或者import关键字"
+    481                     "include定义错误"
+    482                     "'{0}'是错误的include语句,没有找到文件路径"
+    483                     "'{0}'是错误的include语句,没有找到成对的""符号"
+    484                     "'{0}'是错误的import导入语句,没有找到接口名"
+    485                     "'{0}'是错误的import导入语句,没有找到接口空间名定义"
+    486                     "找不到命名空间定义"
+    487                     "命令空间定义错误"
+    488                     "'{0}'全局变量的初始化值,只能是常量"
+    489                     "空间名定义错误:'{0}'"
+    490                     "没有找到命名空间结束定义"
+    491                     "语句末尾出现多余的字符'{0}'"
+    492                     "发现没定义的字符'{0}'"
+    493                     "没有发现变量名定义,变量定义后面没有内容"
+    494                     "错误的数组类型定义"
+    495                     "'{0}'不合法的变量定义,等号在最前面或者最后面"
+END
+
+STRINGTABLE
+BEGIN
+    496                     "'{0}'为不合法的命名定义,只有以下划线和字母开头,只支持数字,字母,下划线进行命名,长度不能超过32"
+    497                     "'{0}'已经定义过的变量名"
+    498                     "不合法的变量值,'{0}'不是'{1}'类型"
+    499                     "'{0}'变量定义语句出现在不合法的位置(需要出现在命名空间或者函数中)"
+    500                     "找不到函数头定义,不完整的函数头定义"
+    501                     "'{0}'是不合法的函数返回值类型"
+    502                     "'{0}'函数头格式错误,示例:function myfun(a,b,c)"
+    503                     "'{0}'不合法的函数名称,参考命名规则"
+    504                     "'{0}'在{1}命名空间中已经存在此函数名称定义"
+    505                     "'{0}'错误的参数列表定义"
+    506                     "'{0}{1}'函数定义出现在不合法的位置(只能出现的命名空间中)"
+    507                     "找不到函数结尾定义"
+    508                     "错误的return语句,没有找到返回表达试"
+    509                     "错误的return表达试'{0}'"
+    510                     "语句'{0}'出现在不合法的位置,应该出现在函数定义里面"
+    511                     "找不到'{0}'语句条件表达式定义"
+END
+
+STRINGTABLE
+BEGIN
+    512                     "'{0}'语句的条件表达试错误'{1}'"
+    513                     "while语句出现的不合法的位置,应该出现在函数定义里面"
+    514                     "找不到 endwhile 语句"
+    515                     "Break语句出现在不合法的位置"
+    516                     "continue语句出现在不合法的位置"
+    517                     "'{0}'条件表达式错误,repeat条件表达试为正整形"
+    518                     "'{0}'不能转换为无符号整数"
+    519                     "repeat出现在不合法的位置"
+    520                     "没有找到 endrepeat 语句"
+    521                     "if语句出现在不合法的位置"
+    522                     "endif与if不匹配"
+    523                     "else语句出现在不合法的位置"
+    524                     "不正确的赋值语句,变量:'{0}'之间发现空格符号"
+    525                     "赋值语句没有表达式"
+    526                     "'{0}'未定义的变量名"
+    527                     "'{0}={1}' 等号两边的数据类型不一致"
+END
+
+STRINGTABLE
+BEGIN
+    528                     " 赋值语句 '{0}' 的位置不合法"
+    529                     " 函数语句 '{0}' 发现语法错误"
+    530                     "函数调用语句出现的位置不合法"
+    531                     "当前条件表达式'{0}'没有用成对的括号括起来,或者是')'(闭括号)之后出现多余的字符"
+    532                     "'{0}' 可能是命名空间关键字与命名空间名中间没有空格，应该加上空格"
+    533                     "'{0}' 可能是变量定义关键字与变量名中间没有空格，应该加上空格"
+    534                     "'{0}' 可能是函数关键字与函数返回类型中间没有空格，应该加上空格"
+    535                     "'{0}' 可能是函数返回类型与函数名中间没有空格，应该加上空格"
+    536                     "return关键字与return之后的语句中间没有空格，应该加上空格"
+    537                     "'函数'{1}'定义里面没有找到return返回语句"
+    538                     "找不到repeat条件表达试"
+    539                     "'{0}' 是一个错误的表达式"
+    540                     "select语句出现在错误的位置,应该出现在函数,或者while,repeat,if,select语句里面"
+    541                     "没有找到select的结尾语句endselect"
+    542                     "'{0}'语句出现在错误的位置,应该出现在select语句里面"
+    543                     "'{0}'语句没有正确的结束"
+END
+
+STRINGTABLE
+BEGIN
+    8672                    "'{0}'是不合法的变量名或者是没定义的变量名"
+    8673                    "错误的父块关系"
+    8674                    "错误的块继承关系"
+    8675                    "'{0}'是不正确的函数名"
+    8676                    "'{0}'是错误的函数参数列表,没有找到成对的括号括起来 或者是函数调用末尾出现多余的字符"
+    8677                    "'{0}'函数定义的参数列表中,只要有一个默认参数,后面的参数都必须是默认参数"
+    8678                    "'{0}'是不正确的参数名,命名错误或者已定义"
+    8679                    "'{0}'没有找到参数表达的左括号""("""
+    8680                    "'{0}.{1}'是未定义的函数"
+    8681                    "'{0}'是错误的参数列表     此异常未用"
+    8682                    "({0})是错误的实参数列表,可能是参数名重定义,或者错误的默认值"
+    8683                    "实参数列表'{0}'与形参列表'{1}'不对应"
+    8684                    "'{0}'是错误的字符型常量"
+    8685                    "'{0}'是不正确的常量、参数"
+    8686                    "'{0}'是错误的表达式"
+    8687                    "运算中参数出现错误的类型或者为不支持的数据类型"
+END
+
+STRINGTABLE
+BEGIN
+    8688                    "运算中左参数出现错误的类型"
+    8689                    "运算中右参数出现错误的类型"
+    8690                    "逻辑运算中参数必须为布尔类型(bool)"
+    8691                    "比较运算中参数必须为数值类型"
+    8692                    "函数调用中包含多余的空格"
+    8693                    "'{0}' 为函数调用错误或者未定义函数未定义的使用"
+    8694                    "return语句的返回类型与函数声明的返回类型不一致"
+    8695                    "'{0}'是不正确的命名定义,只有以下划线和字母开头进行命名,且长度不能超过32位"
+    8696                    "'{0}'中出现不是命名规范中的字符,只能出现字母,数字和下划线"
+    8697                    "'{0}'是关键字，不能用于空间命名、函数名或变量名的定义"
+    8698                    "找不到main函数"
+    8699                    "'{0}'中出现不正确的转义字符格式"
+    8700                    "语句过长,长度不永许超过1024个长度"
+    8702                    "'{0}',添加块节点时,出现头节点或者尾节点为空"
+    8703                    "'{0}' 块类型错误,不被允许执行"
+END
+
+STRINGTABLE
+BEGIN
+    8792                    "XML中DLL名不能为空"
+    8793                    "XML中命名空间名不能为空"
+    8794                    "XML中API函数名不能为空"
+    8795                    "XML中API路径不能为空"
+    8796                    "XML中APIDll链表添加Dll节点时出现头节点或者尾节点为空"
+    8797                    "XML中API命名空间链表添加命名空间节点时出现头节点或者尾节点为空"
+    8798                    "XML中API函数链表添加函数节点时出现头节点或者尾节点为空"
+    8799                    "APIXML的路径不正确，请检查此路径:'{0}'"
+END
+
+STRINGTABLE
+BEGIN
+    8800                    "'{0}.{1}'是VIP功能,请登录VIP后再使用"
+END
+
+STRINGTABLE
+BEGIN
+    8704                    "'{0}',路径不能为空"
+    8705                    "'{0}' 不能为空"
+    8706                    "'{0}' 中结束语句过多"
+    8707                    "'{0}' 中的表达式 '{1}'结果不是Bool型,应该是Bool型"
+    8708                    "Include中的字符串:'{0}' 格式不正确"
+    8709                    "赋值语句的左右两边数据类型不一致"
+    8710                    "变量'{0}'定义的数据类型不支持,是错误的数据类型"
+    8711                    "数组定义'{0}',超过了目前数组定义的最大维数,数组最大支持3维"
+    8712                    "数组调用'{0}',超过了目前数组定义的最大维数,数组最大支持3维"
+END
+
+STRINGTABLE
+BEGIN
+    8742                    "变量不存在"
+    8743                    "'{0}'计算失败"
+    8744                    "'{0}'中，赋值不成功"
+END
+
+STRINGTABLE
+BEGIN
+    544                     "for语句,初始化语句错误,'{0}'"
+    545                     "for语句,条件语句错误,'{0}'"
+    546                     "for语句,步长语句错误,'{0}'"
+    547                     "错误的标记定义格式 '{0}'"
+    548                     "错误的Goto语句定义格式 '{0}'"
+    549                     "'{0}' 好像是goto跳转关键字与标记中间没有空格，应该加上空格"
+    550                     "'{0}' 是已经定义的标记"
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 英语(美国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winver.h""\r\n"
+    "#include ""winnt.h""\r\n"
+    "\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 英语(美国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

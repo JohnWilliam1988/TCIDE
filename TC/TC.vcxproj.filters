@@ -1,0 +1,2230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="HTML 帮助文件">
+      <UniqueIdentifier>{e79964c5-4e7f-4651-9f77-6e53eeb68351}</UniqueIdentifier>
+      <Extensions>hhp;hhc;hhk;gif;jpg</Extensions>
+    </Filter>
+    <Filter Include="HTML 帮助主题">
+      <UniqueIdentifier>{ff78fd0e-c089-4ed2-b88e-abab856a3212}</UniqueIdentifier>
+      <Extensions>htm;html</Extensions>
+    </Filter>
+    <Filter Include="编辑界面">
+      <UniqueIdentifier>{a8ea2a6e-1fe2-4346-b817-97c09731eb29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="属性框">
+      <UniqueIdentifier>{d8458f97-5fb8-43ed-a451-52050eb5a8d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="项目管理框">
+      <UniqueIdentifier>{998394c5-faae-460b-8987-53de2ab40cda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TC库框">
+      <UniqueIdentifier>{6ca5987e-55aa-45ed-a8a6-8bb82b92abd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="输出框">
+      <UniqueIdentifier>{88d2536f-21e2-4c11-9f42-d9503c64d9d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="界面设计">
+      <UniqueIdentifier>{d44d039a-64f3-4b13-8118-55e47e5a0f76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="7z">
+      <UniqueIdentifier>{d6b2c590-6f52-48b5-b8d3-66c683c5e3a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="7z\7z-zip">
+      <UniqueIdentifier>{27a5dacc-8a18-4d94-8c43-5310d5c19b4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="7z\7z">
+      <UniqueIdentifier>{6263e39e-24ea-4a7a-babd-55e7a6d52e7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="7z\Common">
+      <UniqueIdentifier>{a3151153-b6e7-4f3b-9196-daec13709e77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="7z\Compress">
+      <UniqueIdentifier>{0a86f519-f8aa-4011-bc52-edb3911b35f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="7z\windows">
+      <UniqueIdentifier>{28ae868a-ce72-4ce0-a70c-3992ce1acaa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="7z\C">
+      <UniqueIdentifier>{cf5d71f3-a7a7-4676-8058-adeac70acd36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="7z\Archive">
+      <UniqueIdentifier>{cabf9e09-0298-438a-bea6-22cc8e546396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="界面设计\TC控件">
+      <UniqueIdentifier>{30bf900b-b524-4230-8598-373548c851dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="界面设计\TC控件\tab">
+      <UniqueIdentifier>{c138aa2c-2112-411e-9407-8b4fb0321bd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="工具框">
+      <UniqueIdentifier>{4f5315f6-df0c-415a-81c4-f01772d873b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="示例框">
+      <UniqueIdentifier>{8c1ebe0b-022e-4ca7-aa67-a6cae585a4e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="界面设计\控件编辑">
+      <UniqueIdentifier>{53b89fe8-667d-4a5c-9862-6e9e6eabadd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="版本信息">
+      <UniqueIdentifier>{331ca543-2ee8-4093-abd1-573a270ad86b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="界面设计\TC控件\gridctrl">
+      <UniqueIdentifier>{2ba606ed-0ffb-48d1-9b6f-4211f0084354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="界面设计\TC控件\gridctrl\NewCellTypes">
+      <UniqueIdentifier>{688b3af8-73d6-481d-8bc4-085ec3a92d12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="界面设计\TC控件\gridctrl\Experimental Upgrades">
+      <UniqueIdentifier>{c5202304-ca3c-46b5-963f-217db5fa5d51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="加解密">
+      <UniqueIdentifier>{74526557-586e-49a6-938a-70b7027125d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="界面选项">
+      <UniqueIdentifier>{8bc923af-d8b6-4cce-8fb1-60759d84ee43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="欢迎页面">
+      <UniqueIdentifier>{c054c76e-2c92-421d-b664-e89b97b1b78f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="启动示例">
+      <UniqueIdentifier>{5dc56559-b409-4534-8daf-5d440b333a3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="右下角消息">
+      <UniqueIdentifier>{e1b9f2e9-4d74-44b2-8f41-cc965eae7541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ToolTip">
+      <UniqueIdentifier>{66ffd9fa-5417-4a98-8586-3dfefdbddb30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VIP页面">
+      <UniqueIdentifier>{f59c646b-032d-45b7-a9b4-7e21f87014b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="下载">
+      <UniqueIdentifier>{2ab55c1b-4bdc-4fea-842b-2f4a6801074b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="TC.reg" />
+    <None Include="res\file_view.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\file_view_hc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\class_view.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\class_view_hc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\fileview.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\fileview_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\classview.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\classview_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\explorer.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\explorer_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\sort.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\sort_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\menuimages.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\menuimages_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\output_wnd.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\output_wnd_hc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\properties_wnd.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\properties_wnd_hc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\properties.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\properties_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\info.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\buttons.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\filelarge.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\filesmall.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\main.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\writelarge.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\writesmall.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ribbon.mfcribbon-ms">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\TC.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\TCDoc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\TC.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar256.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="hlp\TC.hhk">
+      <Filter>HTML 帮助文件</Filter>
+    </None>
+    <None Include="hlp\TC.hhc">
+      <Filter>HTML 帮助文件</Filter>
+    </None>
+    <None Include="hlp\afx_hidd_color.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\afx_hidd_fileopen.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\afx_hidd_filesave.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\afx_hidd_find.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\afx_hidd_font.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\afx_hidd_newtypedlg.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\afx_hidd_replace.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\afx_hidp_default.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\afx_hidw_dockbar_top.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\afx_hidw_status_bar.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\afx_hidw_toolbar.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hidr_doc1type.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_app_about.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_app_exit.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_context_help.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_edit_clear.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_edit_clear_all.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_edit_copy.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_edit_cut.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_edit_find.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_edit_paste.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_edit_redo.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_edit_repeat.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_edit_replace.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_edit_undo.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_file_close.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_file_mru_file1.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_file_new.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_file_open.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_file_save.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_file_save_as.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_file_send_mail.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_help_index.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_help_using.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_ht_caption.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_ht_nowhere.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_next_pane.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_prev_pane.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_sc_close.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_sc_maximize.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_sc_minimize.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_sc_move.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_sc_nextwindow.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_sc_prevwindow.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_sc_restore.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_sc_size.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_sc_tasklist.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_view_ruler.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_view_status_bar.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_view_toolbar.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_window_all.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_window_arrange.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_window_cascade.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_window_new.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_window_split.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_window_tile.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_window_tile_horz.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\hid_window_tile_vert.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\main_index.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\menu_edit.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\menu_file.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\menu_help.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\menu_view.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\menu_window.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\scrollbars.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="hlp\Images\Bullet.gif">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur\curGroup.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur\curEdit.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur\curRadio.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur\curProgress.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur\curPicture.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur\curList.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur\curText.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur\curDate.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur\curCombo.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur\curCheck.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur\curButton.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolico\icocombobox.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolico\icobutton.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolico\icopicture.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolico\icoDefault.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolico\icocheck.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolico\icostatic.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolico\icoradio.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolico\icogroup.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolico\icoedit.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolico\icoprogress.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolico\icolistbox.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolico\icodate.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbox_view_hc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbox_view.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\TCStart.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolico\icoslider.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolico\icopath.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur\curPath.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur\curSlider.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur\curTab.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolico\icotab.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolico\icotimer.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur\curTimer.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Timer.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolico\icohotkey.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur\curHotkey.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="TCHtmlExample.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="res\toolico\html_tch.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="res\outputWin.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ToolbarVip.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbar1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur\curWeb.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolico\icoWeb.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolico\icogrid.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur\curgrid.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\captionbar\login.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\captionbar\logout.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\captionbar\msg.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\captionbar\rc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\captionbar\rechard.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\captionbar\reg.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\captionbar\tcbbs.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\captionbar\tcweb.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\captionbar\v0.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\captionbar\v1.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\captionbar\V2.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\captionbar\V3.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\captionbar\user.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\splash.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="StartHtmlDia.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="res\img\bg.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\img\ico.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\img\mainBg.gif">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\img\rightBg.gif">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\img\tabBg.gif">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\img\topBg.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\loading-text.gif">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\img\rightBg.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\mail.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\listboxbmp.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="VipCenterHtmlDia.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="res\img\load.gif">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\vip.ico">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TC.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TCDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TCView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScintillaWnd.h">
+      <Filter>编辑界面</Filter>
+    </ClInclude>
+    <ClInclude Include="FileView.h">
+      <Filter>项目管理框</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassView.h">
+      <Filter>TC库框</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertiesWnd.h">
+      <Filter>属性框</Filter>
+    </ClInclude>
+    <ClInclude Include="matchLib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TCRunTimeManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DiaNewProj.h">
+      <Filter>项目管理框</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputWnd.h">
+      <Filter>输出框</Filter>
+    </ClInclude>
+    <ClInclude Include="TCDesignView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TCDesignDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlRect.h">
+      <Filter>界面设计</Filter>
+    </ClInclude>
+    <ClInclude Include="DiaTCDesign.h">
+      <Filter>界面设计</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlTracker.h">
+      <Filter>界面设计</Filter>
+    </ClInclude>
+    <ClInclude Include="RefObject.h">
+      <Filter>界面设计</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonSSL.h">
+      <Filter>工具框</Filter>
+    </ClInclude>
+    <ClInclude Include="FormToolBox.h">
+      <Filter>工具框</Filter>
+    </ClInclude>
+    <ClInclude Include="DesignToolBox.h">
+      <Filter>工具框</Filter>
+    </ClInclude>
+    <ClInclude Include="OddButton.h">
+      <Filter>工具框</Filter>
+    </ClInclude>
+    <ClInclude Include="DiaNewFile.h">
+      <Filter>项目管理框</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\PropID.h">
+      <Filter>7z\7z-zip</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\ICoder.h">
+      <Filter>7z\7z-zip</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\IDecl.h">
+      <Filter>7z\7z-zip</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\IPassword.h">
+      <Filter>7z\7z-zip</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\IProgress.h">
+      <Filter>7z\7z-zip</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\IStream.h">
+      <Filter>7z\7z-zip</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\7z\7zcompressionmode.h">
+      <Filter>7z\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\7z\7zdecode.h">
+      <Filter>7z\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\7z\7zencode.h">
+      <Filter>7z\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\7z\7zfolderinstream.h">
+      <Filter>7z\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\7z\7zFolderOutStream.h">
+      <Filter>7z\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\7z\7zhandler.h">
+      <Filter>7z\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\7z\7zheader.h">
+      <Filter>7z\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\7z\7zin.h">
+      <Filter>7z\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\7z\7zitem.h">
+      <Filter>7z\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\7z\7zout.h">
+      <Filter>7z\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\7z\7zProperties.h">
+      <Filter>7z\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\7z\7zSpecStream.h">
+      <Filter>7z\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\7z\7zUpdate.h">
+      <Filter>7z\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\ArchiveCommandLine.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\ArchiveExtractCallback.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\ArchiveOpenCallback.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\AutoPtr.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\Bench.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\Buffer.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\codermixer2.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\codermixer2mt.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\CommandLineParser.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\ComTry.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\copycoder.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\createcoder.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\cwrappers.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\DefaultName.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\Defs.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\DirItem.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\dummyoutstream.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\DynamicBuffer.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\EnumDirItems.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\ExitCode.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\Extract.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\ExtractingFilePath.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\ExtractMode.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\FilePathAutoRename.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\FileStreams.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\filtercoder.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\handlerout.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\IFileExtractCallback.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\inbuffer.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\InOutTempBuffer.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\instreamwithcrc.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\IntToString.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\itemnameutils.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\limitedstreams.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\ListFileUtils.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\LoadCodecs.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\lockedstream.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\Lzma2Encoder.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\lzmadecoder.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\lzmaencoder.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\methodid.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\methodprops.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\multistream.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\MyCom.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\MyException.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\MyGuidDef.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\MyInitGuid.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\MyString.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\MyUnknown.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\MyVector.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\MyWindows.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\NewHandler.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\OpenArchive.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\outbuffer.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\OutStreamWithCRC.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\ParseProperties.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\progressutils.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\Property.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\PropIDUtils.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\RegisterArc.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\RegisterCodec.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\SetProperties.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\SortUtils.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\StdInStream.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\StdOutStream.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\streambinder.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\streamobjects.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\StreamUtils.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\StringConvert.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\StringToInt.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\TempFiles.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\types.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\Update.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\UpdateAction.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\UpdateCallback.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\UpdatePair.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\UpdateProduce.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\UTFConvert.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\virtthread.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\Wildcard.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Common\zipregistry.h">
+      <Filter>7z\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Compress\Bcj2Coder.h">
+      <Filter>7z\Compress</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Compress\BcjCoder.h">
+      <Filter>7z\Compress</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Compress\BranchCoder.h">
+      <Filter>7z\Compress</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Compress\BranchMisc.h">
+      <Filter>7z\Compress</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Compress\Lzma2Decoder.h">
+      <Filter>7z\Compress</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Compress\RangeCoder.h">
+      <Filter>7z\Compress</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Compress\RangeCoderBit.h">
+      <Filter>7z\Compress</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\C\7zAlloc.h">
+      <Filter>7z\C</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\C\7zCrc.h">
+      <Filter>7z\C</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\C\Alloc.h">
+      <Filter>7z\C</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\C\BenchCon.h">
+      <Filter>7z\C</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\C\Bra.h">
+      <Filter>7z\C</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\C\ConsoleClose.h">
+      <Filter>7z\C</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\C\CpuArch.h">
+      <Filter>7z\C</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\C\Delta.h">
+      <Filter>7z\C</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\C\ExtractCallbackConsole.h">
+      <Filter>7z\C</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\C\List.h">
+      <Filter>7z\C</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\C\LzFind.h">
+      <Filter>7z\C</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\C\LzFindMt.h">
+      <Filter>7z\C</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\C\LzHash.h">
+      <Filter>7z\C</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\C\Lzma2Dec.h">
+      <Filter>7z\C</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\C\Lzma2Enc.h">
+      <Filter>7z\C</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\C\LzmaDec.h">
+      <Filter>7z\C</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\C\LzmaEnc.h">
+      <Filter>7z\C</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\C\MtCoder.h">
+      <Filter>7z\C</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\C\MyVersion.h">
+      <Filter>7z\C</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\C\OpenCallbackConsole.h">
+      <Filter>7z\C</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\C\PercentPrinter.h">
+      <Filter>7z\C</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\C\RotateDefs.h">
+      <Filter>7z\C</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\C\Sha256.h">
+      <Filter>7z\C</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\C\Threads.h">
+      <Filter>7z\C</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\C\UpdateCallbackConsole.h">
+      <Filter>7z\C</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\C\UserInputUtils.h">
+      <Filter>7z\C</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\C\Xz.h">
+      <Filter>7z\C</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\C\XzCrc64.h">
+      <Filter>7z\C</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\C\XzEnc.h">
+      <Filter>7z\C</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\windows\Defs.h">
+      <Filter>7z\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\windows\DLL.h">
+      <Filter>7z\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\windows\Error.h">
+      <Filter>7z\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\windows\FileDir.h">
+      <Filter>7z\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\windows\FileFind.h">
+      <Filter>7z\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\windows\FileIO.h">
+      <Filter>7z\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\windows\FileMapping.h">
+      <Filter>7z\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\windows\FileName.h">
+      <Filter>7z\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\windows\Handle.h">
+      <Filter>7z\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\windows\MemoryLock.h">
+      <Filter>7z\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\windows\NtCheck.h">
+      <Filter>7z\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\windows\PropVariant.h">
+      <Filter>7z\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\windows\PropVariantConversions.h">
+      <Filter>7z\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\windows\Registry.h">
+      <Filter>7z\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\windows\synchronization.h">
+      <Filter>7z\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\windows\System.h">
+      <Filter>7z\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\windows\thread.h">
+      <Filter>7z\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\windows\Time.h">
+      <Filter>7z\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="7z\Types.h">
+      <Filter>7z</Filter>
+    </ClInclude>
+    <ClInclude Include="tcCtl\TCGroupBox.h">
+      <Filter>界面设计\TC控件</Filter>
+    </ClInclude>
+    <ClInclude Include="TCCtlHeads.h">
+      <Filter>界面设计\TC控件</Filter>
+    </ClInclude>
+    <ClInclude Include="tcCtl\TCEdit.h">
+      <Filter>界面设计\TC控件</Filter>
+    </ClInclude>
+    <ClInclude Include="tcCtl\TCStatic.h">
+      <Filter>界面设计\TC控件</Filter>
+    </ClInclude>
+    <ClInclude Include="tcCtl\XThemeHelper.h">
+      <Filter>界面设计\TC控件</Filter>
+    </ClInclude>
+    <ClInclude Include="tcCtl\CreateGrayscaleIcon.h">
+      <Filter>界面设计\TC控件</Filter>
+    </ClInclude>
+    <ClInclude Include="tcCtl\TCButton.h">
+      <Filter>界面设计\TC控件</Filter>
+    </ClInclude>
+    <ClInclude Include="tcCtl\TCOddButton.h">
+      <Filter>界面设计\TC控件</Filter>
+    </ClInclude>
+    <ClInclude Include="tcCtl\TCCheck.h">
+      <Filter>界面设计\TC控件</Filter>
+    </ClInclude>
+    <ClInclude Include="tcCtl\TCRadio.h">
+      <Filter>界面设计\TC控件</Filter>
+    </ClInclude>
+    <ClInclude Include="tcCtl\TCComboBox.h">
+      <Filter>界面设计\TC控件</Filter>
+    </ClInclude>
+    <ClInclude Include="tcCtl\TCPicture.h">
+      <Filter>界面设计\TC控件</Filter>
+    </ClInclude>
+    <ClInclude Include="tcCtl\TCProgress.h">
+      <Filter>界面设计\TC控件</Filter>
+    </ClInclude>
+    <ClInclude Include="tcCtl\TCPath.h">
+      <Filter>界面设计\TC控件</Filter>
+    </ClInclude>
+    <ClInclude Include="tcCtl\TCSlider.h">
+      <Filter>界面设计\TC控件</Filter>
+    </ClInclude>
+    <ClInclude Include="tcCtl\TCDate.h">
+      <Filter>界面设计\TC控件</Filter>
+    </ClInclude>
+    <ClInclude Include="tcCtl\TCTab.h">
+      <Filter>界面设计\TC控件\tab</Filter>
+    </ClInclude>
+    <ClInclude Include="tcCtl\TCTabPage.h">
+      <Filter>界面设计\TC控件\tab</Filter>
+    </ClInclude>
+    <ClInclude Include="tcCtl\TCTimer.h">
+      <Filter>界面设计\TC控件</Filter>
+    </ClInclude>
+    <ClInclude Include="tcCtl\TCHotKeyCtrl.h">
+      <Filter>界面设计\TC控件</Filter>
+    </ClInclude>
+    <ClInclude Include="TCComBoxItem.h">
+      <Filter>属性框</Filter>
+    </ClInclude>
+    <ClInclude Include="TCHotKeySetting.h">
+      <Filter>属性框</Filter>
+    </ClInclude>
+    <ClInclude Include="TCListBoxItem.h">
+      <Filter>属性框</Filter>
+    </ClInclude>
+    <ClInclude Include="TCTableProperty.h">
+      <Filter>属性框</Filter>
+    </ClInclude>
+    <ClInclude Include="TCFunDecWnd.h">
+      <Filter>示例框</Filter>
+    </ClInclude>
+    <ClInclude Include="TCHtmlExample.h">
+      <Filter>示例框</Filter>
+    </ClInclude>
+    <ClInclude Include="tcCtl\TCListBox.h">
+      <Filter>界面设计\TC控件</Filter>
+    </ClInclude>
+    <ClInclude Include="DiaTViewFind.h">
+      <Filter>编辑界面</Filter>
+    </ClInclude>
+    <ClInclude Include="XInfoTip.h">
+      <Filter>编辑界面</Filter>
+    </ClInclude>
+    <ClInclude Include="Docommand.h">
+      <Filter>界面设计\控件编辑</Filter>
+    </ClInclude>
+    <ClInclude Include="RedoUndo\undo.h">
+      <Filter>界面设计\控件编辑</Filter>
+    </ClInclude>
+    <ClInclude Include="TCLoadWinRCFile.h">
+      <Filter>界面设计</Filter>
+    </ClInclude>
+    <ClInclude Include="TCRunConfim.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="exeVersion\Stringfileinfo.h">
+      <Filter>版本信息</Filter>
+    </ClInclude>
+    <ClInclude Include="exeVersion\Stringtable.h">
+      <Filter>版本信息</Filter>
+    </ClInclude>
+    <ClInclude Include="exeVersion\VersionInfo.h">
+      <Filter>版本信息</Filter>
+    </ClInclude>
+    <ClInclude Include="exeVersion\VersionInfoBuffer.h">
+      <Filter>版本信息</Filter>
+    </ClInclude>
+    <ClInclude Include="exeVersion\VersionInfoHelperStructures.h">
+      <Filter>版本信息</Filter>
+    </ClInclude>
+    <ClInclude Include="exeVersion\Versioninfostring.h">
+      <Filter>版本信息</Filter>
+    </ClInclude>
+    <ClInclude Include="tcCtl\TCExplorer.h">
+      <Filter>界面设计\TC控件</Filter>
+    </ClInclude>
+    <ClInclude Include="tcCtl\GridCtrl_src\CellRange.h">
+      <Filter>界面设计\TC控件\gridctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="tcCtl\GridCtrl_src\GridCell.h">
+      <Filter>界面设计\TC控件\gridctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="tcCtl\GridCtrl_src\GridCellBase.h">
+      <Filter>界面设计\TC控件\gridctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="tcCtl\GridCtrl_src\GridCtrl.h">
+      <Filter>界面设计\TC控件\gridctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="tcCtl\GridCtrl_src\GridDropTarget.h">
+      <Filter>界面设计\TC控件\gridctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="tcCtl\GridCtrl_src\InPlaceEdit.h">
+      <Filter>界面设计\TC控件\gridctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="tcCtl\GridCtrl_src\TCMemDC.h">
+      <Filter>界面设计\TC控件\gridctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="tcCtl\GridCtrl_src\TitleTip.h">
+      <Filter>界面设计\TC控件\gridctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="tcCtl\GridCtrl_src\NewCellTypes\GridCellCheck.h">
+      <Filter>界面设计\TC控件\gridctrl\NewCellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="tcCtl\GridCtrl_src\NewCellTypes\GridCellCombo.h">
+      <Filter>界面设计\TC控件\gridctrl\NewCellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="tcCtl\GridCtrl_src\NewCellTypes\GridCellDateTime.h">
+      <Filter>界面设计\TC控件\gridctrl\NewCellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="tcCtl\GridCtrl_src\NewCellTypes\GridCellNumeric.h">
+      <Filter>界面设计\TC控件\gridctrl\NewCellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="TCGridItems.h">
+      <Filter>属性框</Filter>
+    </ClInclude>
+    <ClInclude Include="TCGridListBox.h">
+      <Filter>属性框</Filter>
+    </ClInclude>
+    <ClInclude Include="TCGridProperty.h">
+      <Filter>属性框</Filter>
+    </ClInclude>
+    <ClInclude Include="TCTabListBox.h">
+      <Filter>属性框</Filter>
+    </ClInclude>
+    <ClInclude Include="TCTabProperty.h">
+      <Filter>属性框</Filter>
+    </ClInclude>
+    <ClInclude Include="DiaNewTWin.h">
+      <Filter>界面设计</Filter>
+    </ClInclude>
+    <ClInclude Include="ListFarther.h">
+      <Filter>编辑界面</Filter>
+    </ClInclude>
+    <ClInclude Include="TCCode.h">
+      <Filter>加解密</Filter>
+    </ClInclude>
+    <ClInclude Include="aes.h">
+      <Filter>加解密</Filter>
+    </ClInclude>
+    <ClInclude Include="DES.h">
+      <Filter>加解密</Filter>
+    </ClInclude>
+    <ClInclude Include="decode.h">
+      <Filter>加解密</Filter>
+    </ClInclude>
+    <ClInclude Include="encode.h">
+      <Filter>加解密</Filter>
+    </ClInclude>
+    <ClInclude Include="TCAes.h">
+      <Filter>加解密</Filter>
+    </ClInclude>
+    <ClInclude Include="Markup.h">
+      <Filter>示例框</Filter>
+    </ClInclude>
+    <ClInclude Include="MyApiManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CxSplitterWnd.h">
+      <Filter>项目管理框</Filter>
+    </ClInclude>
+    <ClInclude Include="FileTreeView.h">
+      <Filter>项目管理框</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjTreeView.h">
+      <Filter>项目管理框</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorSettingPage.h">
+      <Filter>界面选项</Filter>
+    </ClInclude>
+    <ClInclude Include="TCSettingDia.h">
+      <Filter>界面选项</Filter>
+    </ClInclude>
+    <ClInclude Include="TCExeVersionManager.h">
+      <Filter>属性框</Filter>
+    </ClInclude>
+    <ClInclude Include="InPlaceCombo.h">
+      <Filter>输出框</Filter>
+    </ClInclude>
+    <ClInclude Include="TCEditorLineJumper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashWnd.h">
+      <Filter>欢迎页面</Filter>
+    </ClInclude>
+    <ClInclude Include="StartDoc.h">
+      <Filter>启动示例</Filter>
+    </ClInclude>
+    <ClInclude Include="StartHtmlDia.h">
+      <Filter>启动示例</Filter>
+    </ClInclude>
+    <ClInclude Include="StartView.h">
+      <Filter>启动示例</Filter>
+    </ClInclude>
+    <ClInclude Include="TCDesktopAlertDia.h">
+      <Filter>右下角消息</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolTip\CeXDib.h">
+      <Filter>ToolTip</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolTip\Monitors.h">
+      <Filter>ToolTip</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolTip\MultiMonitor.h">
+      <Filter>ToolTip</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolTip\PPDrawManager.h">
+      <Filter>ToolTip</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolTip\PPHtmlDrawer.h">
+      <Filter>ToolTip</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolTip\PPTooltip.h">
+      <Filter>ToolTip</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolTip\XSuperTooltip.h">
+      <Filter>ToolTip</Filter>
+    </ClInclude>
+    <ClInclude Include="IconListBox.h">
+      <Filter>ToolTip</Filter>
+    </ClInclude>
+    <ClInclude Include="XInfoTipDebug.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VipCenterDoc.h">
+      <Filter>VIP页面</Filter>
+    </ClInclude>
+    <ClInclude Include="VipCenterHtmlDia.h">
+      <Filter>VIP页面</Filter>
+    </ClInclude>
+    <ClInclude Include="VipCenterView.h">
+      <Filter>VIP页面</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateSettingPage.h">
+      <Filter>界面选项</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TC.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TCView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScintillaWnd.cpp">
+      <Filter>编辑界面</Filter>
+    </ClCompile>
+    <ClCompile Include="FileView.cpp">
+      <Filter>项目管理框</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassView.cpp">
+      <Filter>TC库框</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertiesWnd.cpp">
+      <Filter>属性框</Filter>
+    </ClCompile>
+    <ClCompile Include="TCRunTimeManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DiaNewProj.cpp">
+      <Filter>项目管理框</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputWnd.cpp">
+      <Filter>输出框</Filter>
+    </ClCompile>
+    <ClCompile Include="TCDesignView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TCDesignDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlRect.cpp">
+      <Filter>界面设计</Filter>
+    </ClCompile>
+    <ClCompile Include="DiaTCDesign.cpp">
+      <Filter>界面设计</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlTracker.cpp">
+      <Filter>界面设计</Filter>
+    </ClCompile>
+    <ClCompile Include="RefObject.cpp">
+      <Filter>界面设计</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonSSL.cpp">
+      <Filter>工具框</Filter>
+    </ClCompile>
+    <ClCompile Include="FormToolBox.cpp">
+      <Filter>工具框</Filter>
+    </ClCompile>
+    <ClCompile Include="DesignToolBox.cpp">
+      <Filter>工具框</Filter>
+    </ClCompile>
+    <ClCompile Include="OddButton.cpp">
+      <Filter>工具框</Filter>
+    </ClCompile>
+    <ClCompile Include="DiaNewFile.cpp">
+      <Filter>项目管理框</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\7z\7zCompressionMode.cpp">
+      <Filter>7z\7z</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\7z\7zDecode.cpp">
+      <Filter>7z\7z</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\7z\7zEncode.cpp">
+      <Filter>7z\7z</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\7z\7zExtract.cpp">
+      <Filter>7z\7z</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\7z\7zFolderInStream.cpp">
+      <Filter>7z\7z</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\7z\7zFolderOutStream.cpp">
+      <Filter>7z\7z</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\7z\7zHandler.cpp">
+      <Filter>7z\7z</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\7z\7zHandlerOut.cpp">
+      <Filter>7z\7z</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\7z\7zHeader.cpp">
+      <Filter>7z\7z</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\7z\7zIn.cpp">
+      <Filter>7z\7z</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\7z\7zOut.cpp">
+      <Filter>7z\7z</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\7z\7zProperties.cpp">
+      <Filter>7z\7z</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\7z\7zRegister.cpp">
+      <Filter>7z\7z</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\7z\7zSpecStream.cpp">
+      <Filter>7z\7z</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\7z\7zUpdate.cpp">
+      <Filter>7z\7z</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\ArchiveCommandLine.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\ArchiveExtractCallback.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\ArchiveOpenCallback.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\Bench.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\CoderMixer2.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\CoderMixer2MT.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\CommandLineParser.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\CopyCoder.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\CRC.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\CreateCoder.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\CWrappers.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\DefaultName.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\DummyOutStream.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\EnumDirItems.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\Extract.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\ExtractingFilePath.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\FilePathAutoRename.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\FileStreams.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\FilterCoder.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\HandlerOut.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\InBuffer.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\InOutTempBuffer.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\InStreamWithCRC.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\IntToString.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\ItemNameUtils.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\LimitedStreams.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\ListFileUtils.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\LoadCodecs.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\LockedStream.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\Lzma2Encoder.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\LzmaDecoder.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\LzmaEncoder.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\MethodId.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\MethodProps.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\MultiStream.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\MyString.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\MyVector.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\NewHandler.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\OpenArchive.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\OutBuffer.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\OutStreamWithCRC.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\ParseProperties.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\ProgressUtils.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\PropIDUtils.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\SetProperties.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\SortUtils.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\StdInStream.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\StdOutStream.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\StreamBinder.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\StreamObjects.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\StreamUtils.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\StringConvert.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\StringToInt.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\TempFiles.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\Update.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\UpdateAction.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\UpdateCallback.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\UpdatePair.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\UpdateProduce.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\UTFConvert.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\VirtThread.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Common\Wildcard.cpp">
+      <Filter>7z\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Compress\Bcj2Coder.cpp">
+      <Filter>7z\Compress</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Compress\Bcj2Register.cpp">
+      <Filter>7z\Compress</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Compress\BcjCoder.cpp">
+      <Filter>7z\Compress</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Compress\BcjRegister.cpp">
+      <Filter>7z\Compress</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Compress\BranchCoder.cpp">
+      <Filter>7z\Compress</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Compress\BranchMisc.cpp">
+      <Filter>7z\Compress</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Compress\BranchRegister.cpp">
+      <Filter>7z\Compress</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Compress\ByteSwap.cpp">
+      <Filter>7z\Compress</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Compress\CodecExports.cpp">
+      <Filter>7z\Compress</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Compress\CopyRegister.cpp">
+      <Filter>7z\Compress</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Compress\DeltaFilter.cpp">
+      <Filter>7z\Compress</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Compress\Lzma2Decoder.cpp">
+      <Filter>7z\Compress</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Compress\Lzma2Register.cpp">
+      <Filter>7z\Compress</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\Compress\LzmaRegister.cpp">
+      <Filter>7z\Compress</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\C\7zCrc.cpp">
+      <Filter>7z\C</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\C\7zStream.cpp">
+      <Filter>7z\C</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\C\Alloc.cpp">
+      <Filter>7z\C</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\C\BenchCon.cpp">
+      <Filter>7z\C</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\C\Bra86.cpp">
+      <Filter>7z\C</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\C\Bra.cpp">
+      <Filter>7z\C</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\C\BraIA64.cpp">
+      <Filter>7z\C</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\C\ConsoleClose.cpp">
+      <Filter>7z\C</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\C\CpuArch.cpp">
+      <Filter>7z\C</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\C\Delta.cpp">
+      <Filter>7z\C</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\C\ExtractCallbackConsole.cpp">
+      <Filter>7z\C</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\C\List.cpp">
+      <Filter>7z\C</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\C\LzFind.cpp">
+      <Filter>7z\C</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\C\LzFindMt.cpp">
+      <Filter>7z\C</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\C\Lzma2Dec.cpp">
+      <Filter>7z\C</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\C\Lzma2Enc.cpp">
+      <Filter>7z\C</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\C\LzmaDec.cpp">
+      <Filter>7z\C</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\C\LzmaEnc.cpp">
+      <Filter>7z\C</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\C\MtCoder.cpp">
+      <Filter>7z\C</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\C\OpenCallbackConsole.cpp">
+      <Filter>7z\C</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\C\PercentPrinter.cpp">
+      <Filter>7z\C</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\C\Sha256.cpp">
+      <Filter>7z\C</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\C\Threads.cpp">
+      <Filter>7z\C</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\C\UpdateCallbackConsole.cpp">
+      <Filter>7z\C</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\C\UserInputUtils.cpp">
+      <Filter>7z\C</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\C\Xz.cpp">
+      <Filter>7z\C</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\C\XzCrc64.cpp">
+      <Filter>7z\C</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\C\XzDec.cpp">
+      <Filter>7z\C</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\C\XzEnc.cpp">
+      <Filter>7z\C</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\C\XzIn.cpp">
+      <Filter>7z\C</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\XzHandler.cpp">
+      <Filter>7z\Archive</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\LzmaHandler.cpp">
+      <Filter>7z\Archive</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\SplitHandler.cpp">
+      <Filter>7z\Archive</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\windows\DLL.cpp">
+      <Filter>7z\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\windows\Error.cpp">
+      <Filter>7z\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\windows\FileDir.cpp">
+      <Filter>7z\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\windows\FileFind.cpp">
+      <Filter>7z\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\windows\FileIO.cpp">
+      <Filter>7z\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\windows\FileMapping.cpp">
+      <Filter>7z\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\windows\FileName.cpp">
+      <Filter>7z\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\windows\MemoryLock.cpp">
+      <Filter>7z\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\windows\PropVariant.cpp">
+      <Filter>7z\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\windows\PropVariantConversions.cpp">
+      <Filter>7z\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\windows\Registry.cpp">
+      <Filter>7z\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\windows\Synchronization.cpp">
+      <Filter>7z\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\windows\System.cpp">
+      <Filter>7z\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="7z\windows\Time.cpp">
+      <Filter>7z\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="tcCtl\TCGroupBox.cpp">
+      <Filter>界面设计\TC控件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcCtl\TCEdit.cpp">
+      <Filter>界面设计\TC控件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcCtl\TCStatic.cpp">
+      <Filter>界面设计\TC控件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcCtl\XThemeHelper.cpp">
+      <Filter>界面设计\TC控件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcCtl\TCButton.cpp">
+      <Filter>界面设计\TC控件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcCtl\TCOddButton.cpp">
+      <Filter>界面设计\TC控件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcCtl\TCCheck.cpp">
+      <Filter>界面设计\TC控件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcCtl\TCRadio.cpp">
+      <Filter>界面设计\TC控件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcCtl\TCComboBox.cpp">
+      <Filter>界面设计\TC控件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcCtl\TCPicture.cpp">
+      <Filter>界面设计\TC控件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcCtl\TCProgress.cpp">
+      <Filter>界面设计\TC控件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcCtl\TCPath.cpp">
+      <Filter>界面设计\TC控件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcCtl\TCSlider.cpp">
+      <Filter>界面设计\TC控件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcCtl\TCDate.cpp">
+      <Filter>界面设计\TC控件</Filter>
+    </ClCompile>
+    <ClCompile Include="TCDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcCtl\TCTab.cpp">
+      <Filter>界面设计\TC控件\tab</Filter>
+    </ClCompile>
+    <ClCompile Include="tcCtl\TCTabPage.cpp">
+      <Filter>界面设计\TC控件\tab</Filter>
+    </ClCompile>
+    <ClCompile Include="tcCtl\TCTimer.cpp">
+      <Filter>界面设计\TC控件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcCtl\TCHotKeyCtrl.cpp">
+      <Filter>界面设计\TC控件</Filter>
+    </ClCompile>
+    <ClCompile Include="TCComBoxItem.cpp">
+      <Filter>属性框</Filter>
+    </ClCompile>
+    <ClCompile Include="TCHotKeySetting.cpp">
+      <Filter>属性框</Filter>
+    </ClCompile>
+    <ClCompile Include="TCListBoxItem.cpp">
+      <Filter>属性框</Filter>
+    </ClCompile>
+    <ClCompile Include="TCTableProperty.cpp">
+      <Filter>属性框</Filter>
+    </ClCompile>
+    <ClCompile Include="TCFunDecWnd.cpp">
+      <Filter>示例框</Filter>
+    </ClCompile>
+    <ClCompile Include="TCHtmlExample.cpp">
+      <Filter>示例框</Filter>
+    </ClCompile>
+    <ClCompile Include="tcCtl\TCListBox.cpp">
+      <Filter>界面设计\TC控件</Filter>
+    </ClCompile>
+    <ClCompile Include="DiaTViewFind.cpp">
+      <Filter>编辑界面</Filter>
+    </ClCompile>
+    <ClCompile Include="XInfoTip.cpp">
+      <Filter>编辑界面</Filter>
+    </ClCompile>
+    <ClCompile Include="TCLoadWinRCFile.cpp">
+      <Filter>界面设计</Filter>
+    </ClCompile>
+    <ClCompile Include="TCRunConfim.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="exeVersion\StringFileInfo.cpp">
+      <Filter>版本信息</Filter>
+    </ClCompile>
+    <ClCompile Include="exeVersion\StringTable.cpp">
+      <Filter>版本信息</Filter>
+    </ClCompile>
+    <ClCompile Include="exeVersion\VersionInfo.cpp">
+      <Filter>版本信息</Filter>
+    </ClCompile>
+    <ClCompile Include="exeVersion\VersionInfoBuffer.cpp">
+      <Filter>版本信息</Filter>
+    </ClCompile>
+    <ClCompile Include="exeVersion\VersionInfoString.cpp">
+      <Filter>版本信息</Filter>
+    </ClCompile>
+    <ClCompile Include="tcCtl\TCExplorer.cpp">
+      <Filter>界面设计\TC控件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcCtl\GridCtrl_src\GridCell.cpp">
+      <Filter>界面设计\TC控件\gridctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="tcCtl\GridCtrl_src\GridCellBase.cpp">
+      <Filter>界面设计\TC控件\gridctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="tcCtl\GridCtrl_src\GridCtrl.cpp">
+      <Filter>界面设计\TC控件\gridctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="tcCtl\GridCtrl_src\GridDropTarget.cpp">
+      <Filter>界面设计\TC控件\gridctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="tcCtl\GridCtrl_src\InPlaceEdit.cpp">
+      <Filter>界面设计\TC控件\gridctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="tcCtl\GridCtrl_src\TitleTip.cpp">
+      <Filter>界面设计\TC控件\gridctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="tcCtl\GridCtrl_src\NewCellTypes\GridCellCheck.cpp">
+      <Filter>界面设计\TC控件\gridctrl\NewCellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="tcCtl\GridCtrl_src\NewCellTypes\GridCellCombo.cpp">
+      <Filter>界面设计\TC控件\gridctrl\NewCellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="tcCtl\GridCtrl_src\NewCellTypes\GridCellDateTime.cpp">
+      <Filter>界面设计\TC控件\gridctrl\NewCellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="tcCtl\GridCtrl_src\NewCellTypes\GridCellNumeric.cpp">
+      <Filter>界面设计\TC控件\gridctrl\NewCellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="TCGridItems.cpp">
+      <Filter>属性框</Filter>
+    </ClCompile>
+    <ClCompile Include="TCGridListBox.cpp">
+      <Filter>属性框</Filter>
+    </ClCompile>
+    <ClCompile Include="TCGridProperty.cpp">
+      <Filter>属性框</Filter>
+    </ClCompile>
+    <ClCompile Include="TCTabProperty.cpp">
+      <Filter>属性框</Filter>
+    </ClCompile>
+    <ClCompile Include="TCTabListBox.cpp">
+      <Filter>属性框</Filter>
+    </ClCompile>
+    <ClCompile Include="DiaNewTWin.cpp">
+      <Filter>界面设计</Filter>
+    </ClCompile>
+    <ClCompile Include="ListFarther.cpp">
+      <Filter>编辑界面</Filter>
+    </ClCompile>
+    <ClCompile Include="TCCode.cpp">
+      <Filter>加解密</Filter>
+    </ClCompile>
+    <ClCompile Include="aes.cpp">
+      <Filter>加解密</Filter>
+    </ClCompile>
+    <ClCompile Include="TCAes.cpp">
+      <Filter>加解密</Filter>
+    </ClCompile>
+    <ClCompile Include="DES.cpp">
+      <Filter>加解密</Filter>
+    </ClCompile>
+    <ClCompile Include="Markup.cpp">
+      <Filter>示例框</Filter>
+    </ClCompile>
+    <ClCompile Include="MyApiManager.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CxSplitterWnd.cpp">
+      <Filter>项目管理框</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTreeView.cpp">
+      <Filter>项目管理框</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjTreeView.cpp">
+      <Filter>项目管理框</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorSettingPage.cpp">
+      <Filter>界面选项</Filter>
+    </ClCompile>
+    <ClCompile Include="TCSettingDia.cpp">
+      <Filter>界面选项</Filter>
+    </ClCompile>
+    <ClCompile Include="TCExeVersionManager.cpp">
+      <Filter>属性框</Filter>
+    </ClCompile>
+    <ClCompile Include="InPlaceCombo.cpp">
+      <Filter>输出框</Filter>
+    </ClCompile>
+    <ClCompile Include="TCEditorLineJumper.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashWnd.cpp">
+      <Filter>欢迎页面</Filter>
+    </ClCompile>
+    <ClCompile Include="StartDoc.cpp">
+      <Filter>启动示例</Filter>
+    </ClCompile>
+    <ClCompile Include="StartHtmlDia.cpp">
+      <Filter>启动示例</Filter>
+    </ClCompile>
+    <ClCompile Include="StartView.cpp">
+      <Filter>启动示例</Filter>
+    </ClCompile>
+    <ClCompile Include="TCDesktopAlertDia.cpp">
+      <Filter>右下角消息</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolTip\CeXDib.cpp">
+      <Filter>ToolTip</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolTip\Monitors.cpp">
+      <Filter>ToolTip</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolTip\MultiMonitor.cpp">
+      <Filter>ToolTip</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolTip\PPDrawManager.cpp">
+      <Filter>ToolTip</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolTip\PPHtmlDrawer.cpp">
+      <Filter>ToolTip</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolTip\PPTooltip.cpp">
+      <Filter>ToolTip</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolTip\XSuperTooltip.cpp">
+      <Filter>ToolTip</Filter>
+    </ClCompile>
+    <ClCompile Include="IconListBox.cpp">
+      <Filter>ToolTip</Filter>
+    </ClCompile>
+    <ClCompile Include="XInfoTipDebug.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VipCenterDoc.cpp">
+      <Filter>VIP页面</Filter>
+    </ClCompile>
+    <ClCompile Include="VipCenterHtmlDia.cpp">
+      <Filter>VIP页面</Filter>
+    </ClCompile>
+    <ClCompile Include="VipCenterView.cpp">
+      <Filter>VIP页面</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateSettingPage.cpp">
+      <Filter>界面选项</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TC.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="hlp\TC.hhp">
+      <Filter>HTML 帮助文件</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resource.h">
+      <Filter>头文件</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

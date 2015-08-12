@@ -1,0 +1,102 @@
+语法:
+1,去掉数据类型的概念,变量定义,函数返回类型,参数类型,都为可选,(以后将去掉这些关键字,因为它没有任何意义,除了注释效果)
+2,访问其他空间的全局变量不再有数量限制,全局变量不再有限制
+3,if嵌套可以最多45层,其他语句同理,以前是15层
+4,其他空间的全局变量可以访问也可以修改
+5,向下调用函数不再有数量限制
+6,加快了运行速度,现在测试快了1倍
+7,改变了com调用机制,可以跨线程和跨空间调用com对象
+8,增加了 += -= *= /= ++ -- 操作符号,&为连接字符串
+9,数组成员也为可变类型
+示例:
+a=array[10]
+a[0]=10
+a[1]="232"
+help.messagebox(a[0])
+10,return 语句不在是必须的
+11,全局变量可以赋初值,只能是常量
+12,加入了dllcall-可以调用标准DLL的方法.示例:dllcall("user32.dll","BOOL","SetCursorPos","int",100,"int",100）
+13,加入了COM属性接口的操作
+示例
+Excel=com("Excel.Application")
+Excel.Visible=true
+d=Excel.WorkBooks
+d.Add(1)
+Sheet=Excel.ActiveWorkbook.ActiveSheet.Cells(1,1)
+Sheet.Value="TTTT"
+help.messagebox("点我,就退出EXCEL")
+Sheet.Saved=true
+Excel.Quit()
+14,数组最多支持8维数组
+a=array[10][10][10][10][10]
+a[0][0][0][0][0]="0000"
+help.messagebox(a[0][0][0][0][0]&"cccc")
+15,增加数组空间和方法：
+1、dim = array.dims(array)
+2、boolr=array.size(array,len1=0,len2=0,len3=0,len4=0,len5=0,len6=0,len7=0,len8=0)
+3、array = array.cat(array1,array2)
+4、array.sort(array1,type)                      //type 0:ansci码顺排 1:ansci码逆排 2:按数字顺排 3:按数字逆排
+5、array = array.filter(array1,filterstr,type)  //type 0:模糊匹配 1:精确匹配
+内部改动:
+去掉了XML的依赖
+改进了API调用模式
+
+API:
+增加数组空间和方法：
+ 获取数组的维数
+1、dim = arraysp.dims(array)   
+   数组空间.维数(array)      返回值是整型值 维数
+
+  获取数组的每个维数的最大数据个数      
+2、boolr=arraysp.size(array,len1=0,len2=0,len3=0,len4=0,len5=0,len6=0,len7=0,len8=0)
+   数组空间.大小(array,len1=0,len2=0,len3=0,len4=0,len5=0,len6=0,len7=0,len8=0)   // 执行成功返回真 失败返回假
+
+连接2个相同维数的数组，之后返回一个新的数组
+3、array = arraysp.cat(array1,array2)
+   数组空间.连接(array1,array2)    // 返回值是连接后的数组 （最大支持2微数组）
+
+对数组按照指定模式进行排序
+4、arraysp.sort(array1,type=0)  //type 0:ansci码顺排 1:ansci码逆排 2:按数字顺排 3:按数字逆排 4：倒序
+   数组空间.排序( array1,type=0 )   // 成功返回真，失败返回假
+
+通过指定字符串，返回数组中所有匹配的内容，返回值为一维数组。
+5、array = arraysp.filter(array1,filterstr,type=0)  //type 0:模糊匹配 1:精确匹配
+   数组空间.过滤(array1,filterstr,type=0)   //返回值为含有filterstr的所有内容（一维数组）
+
+
+在数组的头部或者尾部添加内容
+6、arraysp.add(array,data,type=0)       //type 0:在头部加入 1:在尾部加入
+   数组空间.增加( array,data,type=0)    成功返回真，失败返回假
+
+在数组的头部或者尾部删除内容
+7、arraysp.delete(array,type=0)         //type 0:在头部删除  1:在尾部删除
+   数组空间.删除(array,type=0 )         成功返回真，失败返回假
+
+在数组的指定位置插入一个内容
+8、arraysp.insertat(array,index,data)   //index:要插入的位置 data:要插入的数据
+   数组空间.插入(array,index,data )     成功返回真，失败返回假
+
+在数组的指定位置删除一个内容
+9、arraysp.deleteat(array,index)        //index:要删除的位置
+   数组空间.删除指定项(array,index)     成功返回真，失败返回假
+
+清空数组的所有内容
+10、arraysp.clear(array)                // 清空数组的数据
+    数组空间.清空(array)                成功返回真，失败返回假
+
+
+未放出功能:
+
+win32调用,支持结构体,是的,可以调用windows系统提供的所有的功能.
+控件美化,商业控件的效果,你做出来的软件会非常绚丽
+数据库操作的支持,支持数据控件,数据操作更强大.
+IDE的完善,各种细节
+goto的加入
+网络服务器:作者可以自己搞答题器了,而且很轻松,这里留点悬念吧，-，-
+
+
+线程就像一条路,你一直在走,一直在做自己的事情,
+开一个线程,就等于多开辟了一条路,你安排另一个手下去走,做其他的事情,这样,就等于两个人同时在做事情,提高效率.
+
+
+

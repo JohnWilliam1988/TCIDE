@@ -1,0 +1,15 @@
+[ProjInfo]
+EnterFile=TLL演示.t
+Language=0
+Version=4.026
+ExeIco=
+[VersionInfo]
+ProductName=TC
+FileDescription=TC
+FileVersion=1.0.0.0
+ProductVersion=1.0.0.0
+InternalName=TC
+CompanyName=简单软件
+LegalCopyright=(C)<简单软件>保留所有版权
+[Fold]
+IsFold=

@@ -1,0 +1,234 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>无标题文档</title>
+<script type="text/javascript">
+function setTab(name,cursel,n){
+for(i=1;i<=n;i++){
+var menu=document.getElementById(name+i);
+var con=document.getElementById("con_"+name+"_"+i);
+menu.className=i==cursel?"select":"";
+con.style.display=i==cursel?"block":"none";
+}
+}
+</script>
+<style type="text/css">
+*{margin:0;padding:0;}
+ul,li{ list-style-type:none;}
+a{ color:#4e9cd7; text-decoration:none;}
+a:hover{ color:#1c7bc3; text-decoration:underline;}
+body{font:12px/30px "宋体"; background:url(res:/#45575) repeat-x 0 0; color:#444;}
+.bg{ width:100%;}
+.top{height:96px;background: url(res:/#45581) no-repeat 0 0;}
+.top p{ color:#666; padding:59px 0 0 120px;}
+.mainBg{padding:12px 12px 12px 0px; width:880px; background:url(res:/#45577) no-repeat 0 0;}
+.left{float:left;width:240px;padding:0 10px;}
+.leftList{ width:229px;padding-right:10px; margin-bottom:10px; border-right:solid 1px #b0d7f3;}
+.webList{ line-height:24px; padding-left:30px; background:url(res:/#45576) no-repeat 10px 4px;}
+.fileList{ padding:10px 0 20px 0;}
+.fileList_hd{ font-family:"微软雅黑", "黑体", "宋体"; font-size:14px;}
+.fileList_hd p{ line-height:15px; overflow:hidden; display:block; float:right; height:15px; width:135px; margin-top:14px; border-top:solid 1px #b0d7f3;}
+/*.fileList ul{ line-height:24px; }
+.fileList li{padding-left:34px;background:url(img/ico.png) no-repeat 10px -100px;}
+.fileList select{background:none; border:none;}
+.fileList select option{ padding-left:34px;background:url(img/ico.png) no-repeat 10px -100px;}
+.fileList_main{line-height:24px;}
+.fileList_main label{ display:block;cursor:pointer;padding:0 0 0 34px;background:url(img/ico.gif) no-repeat 10px -102px;}
+.fileList_main label input{ display:none;}*/
+.fileList .file{ line-height:24px; text-align:left; color:#4e9cd7;cursor:pointer; padding-left:40px; height:24px; width:189px; border:none;background:url(res:/#45576) no-repeat 10px -102px;}
+.fileList .file:hover{color:#1c7bc3; text-decoration:underline;}
+
+.mx{ width:229px; line-height:20px;}
+.mx input{ float:left;}
+
+.right{ font-size:14px;float:left;width:560px;min-height:300px;background: url(img/rightBg.png) repeat-x 0 0;}
+.right_title{}
+.tab_hd{ width:520px; }
+.tab_hd ul{ height:28px; border-left:solid 1px #bdd7f2;}
+.tab_hd ul li{color:#444;cursor:pointer;float:left;line-height:30px;height:30px;padding:0 10px;background: url(res:/#45580) no-repeat bottom right;/*border-top:2px;border-left:1px;border-right:1px;border-bottom:none; */border-left:1px solid #e6f4ff;border-right:1px solid #e6f4ff;border-top:solid 1px #bdd7f2;border-bottom:solid 1px #bdd7f2;}
+.tab_hd ul li.select{color:#458fce; line-height:28px;border-top:2px #458fce solid;border-left:1px #bdd7f2 solid;border-right:1px #bdd7f2 solid;border-bottom:none;background-color:#e6f4ff; background-image:none;}
+.tab_bd{ padding:10px 15px;}
+.tab_bd li{ width:170px; padding:0 2px; float:left;}
+.tab_bd li a{ color:#444;}
+.tab_bd li a:hover{color:#1c7bc3;}
+
+.clear{clear:both;}
+</style>
+</head>
+
+<body>
+<div class="bg">
+<div class="top">
+<p id="Version">TC4.001版</p>
+</div>
+<div class="mainBg">
+  <div class="left">
+    <div class="leftList">
+      <ul class="webList">
+        <li><a href="http://www.tyuyan.com/" target="_blank">TC官网</a></li>
+        <li><a href="http://bbs.tyuyan.com/" target="_blank">TC官方论坛</a></li>
+        <li><a href="http://pt.tyuyan.com/" target="_blank">TC脚本应用平台</a></li>
+        <li><a href="http://www.tyuyan.com/Tutorial/qkIndex.html" target="_blank">TC教程免费学习</a></li>
+      </ul>
+      <div class="fileList">
+      <div class="fileList_hd"><p></p>最近打开项目</div>
+      <!--<ul>
+       <li><a href="#">TCProj.png</a></li>
+       <li><a href="#">TuiDialogUI.psd</a></li>
+       <li><a href="#">TC</a></li>
+       <li><a href="#">TuiDemo.exe </a></li>
+      </ul>-->
+     <!--<select multiple="multiple" SIZE="4" id="histroyList">
+       <option>示例文件一</option>
+       <option>示例文件二</option>
+       <option>示例文件三</option>
+       <option>示例文件四</option>
+     </select>-->
+     <!--<p class="fileList_main">
+       <label>
+         <input type="checkbox" name="CheckboxGroup1" value="复选框" id="CheckboxGroup1_0" />
+         示例文件一</label>
+       <label>
+         <input type="checkbox" name="CheckboxGroup1" value="复选框" id="CheckboxGroup1_1" />
+         示例文件二</label>
+       <label>
+         <input type="checkbox" name="CheckboxGroup1" value="复选框" id="CheckboxGroup1_2" />
+         示例文件三</label>
+       <label>
+         <input type="checkbox" name="CheckboxGroup1" value="复选框" id="CheckboxGroup1_3" />
+         示例文件四</label>
+     </p>-->
+     <div id="histroyList">
+         <input class="file" name="" type="button" value="示例文件一" />
+         <input class="file" name="" type="button" value="示例文件二" />
+         <input class="file" name="" type="button" value="示例文件三" />
+         <input class="file" name="" type="button" value="示例文件四" />
+     </div>
+      </div>
+    </div>
+    <p class="mx"><label><input name="" type="checkbox" value="" id="ClosedAfterLoadCheck"/>在项目加载后关闭此页</label></p>
+    <p class="mx"><label><input name="" type="checkbox" value="" id="ShowWhenStartCheck"/>启动时显示此页</label></p>
+  </div>
+  <div class="right">
+  <!--<div class="right_title"><img src="img/rightLogo.jpg" width="200" height="76" alt="新手示例" /></div>-->
+  <div class="tab_hd">
+  <ul>
+  <li id="idname1" onmouseover="setTab('idname',1,6)" class="select">基本语法</li>
+  <li id="idname2" onmouseover="setTab('idname',2,6)">脚本技巧</li>
+  <li id="idname3" onmouseover="setTab('idname',3,6)">插件应用</li>
+  <li id="idname4" onmouseover="setTab('idname',4,6)">游戏应用</li>
+  <li id="idname5" onmouseover="setTab('idname',5,6)">网页控件</li>
+  <li id="idname6" onmouseover="setTab('idname',6,6)">未分类</li>
+  </ul>
+  <div class="clear"></div>
+  </div>
+  <div id="content" class="tab_bd">
+  <ul id="con_idname_1">
+    <!--<li><a href="#">前台喊话</a></li>
+    <li><a href="#">获取窗口信息</a></li>
+    <li><a href="#">后台喊话</a></li>
+    <li><a href="#">后台Bkgnd插件</a></li>
+    <li><a href="#">多媒体Media插件</a></li>
+    <li><a href="#">调用E语言插件演示</a></li>
+    <li><a href="#">VB插件测试</a></li>
+    <li><a href="#">窗口Window插件</a></li>
+    <li><a href="#">加解密Encrypt插件</a></li>
+    <li><a href="#">网页Web插件</a></li>-->
+   </ul>
+   <ul id="con_idname_2" style="display:none;">
+    <!--<li><a href="#">引用其他目录下的插件</a></li>
+    <li><a href="#">颜色Clolr插件</a></li>
+    <li><a href="#">信息提示Msg插件</a></li>
+    <li><a href="#">系统Sys插件</a></li>
+    <li><a href="#">文件File插件</a></li>
+    <li><a href="#">网格Net插件</a></li>
+    <li><a href="#">图像Pic插件</a></li>
+    <li><a href="#">内存进程Memory插件</a></li>
+    <li><a href="#">命令库调用演示</a></li>
+    <li><a href="#">控制台Console插件</a></li>
+    <li><a href="#">获取窗口信息</a></li>
+    <li><a href="#">后台喊话</a></li>
+    <li><a href="#">后台Bkgnd插件</a></li>
+    <li><a href="#">多媒体Media插件</a></li>
+    <li><a href="#">调用E语言插件演示</a></li>
+    <li><a href="#">VB插件测试</a></li>
+    <li><a href="#">窗口Window插件</a></li>
+    <li><a href="#">加解密Encrypt插件</a></li>
+    <li><a href="#">网页Web插件</a></li>-->
+   </ul>
+   <ul id="con_idname_3" style="display:none;">
+    <!--<li><a href="#">图像Pic插件</a></li>
+    <li><a href="#">内存进程Memory插件</a></li>
+    <li><a href="#">命令库调用演示</a></li>
+    <li><a href="#">控制台Console插件</a></li>
+    <li><a href="#">获取窗口信息</a></li>
+    <li><a href="#">后台喊话</a></li>
+    <li><a href="#">后台Bkgnd插件</a></li>
+    <li><a href="#">多媒体Media插件</a></li>
+    <li><a href="#">调用E语言插件演示</a></li>
+    <li><a href="#">VB插件测试</a></li>
+    <li><a href="#">窗口Window插件</a></li>
+    <li><a href="#">加解密Encrypt插件</a></li>
+    <li><a href="#">网页Web插件</a></li>-->
+   </ul>
+   <ul id="con_idname_4" style="display:none;">
+    <!--<li><a href="#">多媒体Media插件</a></li>
+    <li><a href="#">调用E语言插件演示</a></li>
+    <li><a href="#">VB插件测试</a></li>
+    <li><a href="#">窗口Window插件</a></li>
+    <li><a href="#">加解密Encrypt插件</a></li>
+    <li><a href="#">网页Web插件</a></li>-->
+   </ul>
+   <ul id="con_idname_5" style="display:none;">
+    <!--<li><a href="#">文件File插件</a></li>
+    <li><a href="#">网格Net插件</a></li>
+    <li><a href="#">图像Pic插件</a></li>
+    <li><a href="#">内存进程Memory插件</a></li>
+    <li><a href="#">命令库调用演示</a></li>
+    <li><a href="#">控制台Console插件</a></li>
+    <li><a href="#">获取窗口信息</a></li>
+    <li><a href="#">后台喊话</a></li>
+    <li><a href="#">后台Bkgnd插件</a></li>
+    <li><a href="#">多媒体Media插件</a></li>
+    <li><a href="#">调用E语言插件演示</a></li>
+    <li><a href="#">VB插件测试</a></li>
+    <li><a href="#">窗口Window插件</a></li>
+    <li><a href="#">加解密Encrypt插件</a></li>
+    <li><a href="#">网页Web插件</a></li>-->
+   </ul>
+   <ul id="con_idname_6" style="display:none;">
+    <!--<li><a href="#">引用其他目录下的插件</a></li>
+    <li><a href="#">颜色Clolr插件</a></li>
+    <li><a href="#">信息提示Msg插件</a></li>
+    <li><a href="#">系统Sys插件</a></li>
+    <li><a href="#">文件File插件</a></li>
+    <li><a href="#">网格Net插件</a></li>
+    <li><a href="#">图像Pic插件</a></li>
+    <li><a href="#">内存进程Memory插件</a></li>
+    <li><a href="#">命令库调用演示</a></li>
+    <li><a href="#">控制台Console插件</a></li>
+    <li><a href="#">获取窗口信息</a></li>
+    <li><a href="#">后台喊话</a></li>
+    <li><a href="#">后台Bkgnd插件</a></li>
+    <li><a href="#">多媒体Media插件</a></li>
+    <li><a href="#">调用E语言插件演示</a></li>
+    <li><a href="#">VB插件测试</a></li>
+    <li><a href="#">窗口Window插件</a></li>
+    <li><a href="#">加解密Encrypt插件</a></li>
+    <li><a href="#">网页Web插件</a></li>-->
+   </ul>
+  <div class="clear"></div>
+  
+  </div>
+  
+  
+  
+  </div>
+  <div class="clear"></div>
+</div>
+</div>
+</body>
+
+
+</html>

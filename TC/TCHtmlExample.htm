@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <meta http-equiv="content-type" content="text/html; charset=gb2312" />
+    <style type="text/css">
+        body{margin: 0;font-size: 12px;}
+        .fs12{font-size: 6px;}
+        .fs14{font-size: 14px;}
+        .fwb{font-weight: bold;}
+        .colorlightgrey{color: #777;text-align: right;}
+        .green{color: #006633;}
+        .fwb{font-weight: bold;}
+        .red{color: Red;}
+        .green{color: Green;}
+        .zhise{color: Yellow;}
+        .tdwidth{width:100px;}
+        .tdline{border-bottom: 1px solid #ccc;border-right: 1px solid #ccc;}
+        a{text-decoration: none;}
+        .bgblue{background: #f1f1f1;}
+        .STYLE1{border-bottom: 1px solid #ccc;border-right: 1px solid #ccc;font-size: 14px;color: #0066CC;font-weight: bold;}
+        .btn_copy{ height:22px; line-height:22px; color:#fff; width:74px; border:none; background-color:#4aa9ea;}
+		.btn_copy:hover{ color:#FFF; background-color:#ff6e01;}
+		.textBox{ border-left: solid 5px #d6d6d6; padding-left:5px;display:block;}
+    </style>
+ <script type="text/javascript">
+     function copyText(obj) {
+         var rng = document.body.createTextRange();
+         rng.moveToElementText(obj);
+         rng.scrollIntoView();
+         rng.select();
+         rng.execCommand("Copy");
+         rng.collapse(false);
+         alert("复制成功!");
+     } </script> 
+</head>
+<body id="CDHTMLDialogDlg">
+    <div style="height: 300px; font-size: 12px; margin:5px;">
+        <table width="100%" cellspacing="0" style="border-top: 1px solid #ccc;border-left: 1px solid #ccc;">
+             
+            <tr style="height: 25px;">
+                <td align="center" class="tdwidth tdline bgblue">
+                    功能原型：
+                </td>
+                <td class="tdline bgblue" style="background: #c8e2ff;  padding-left: 5px;">
+                    <a id="Function" target="_blank"> </a>
+                </td>
+            </tr>
+            <tr style="height: 25px;">
+                <td align="center" class="tdline bgblue">
+                    功能说明：
+                </td>
+                <td class="tdline" style="padding-left: 5px;">
+                    <a id="FunctionDec" target="_blank"> </a>
+                </td>
+            </tr>
+            <tr style="height: 25px;">
+                <td align="center" class="tdline bgblue">
+                    功能举例：
+                </td>
+                <td class="tdline" style="padding:5px 5px 0 5px;">
+                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td width="98%" style=" padding:5px 0;">
+                                    <a id="FunctionExample" class="textBox" target="_blank"></a>
+                            </td>
+                            <td  style=" width:70px; vertical-align:top; padding:0 0 5px 5px;">
+                         <input id="btn_copy" class="btn_copy" type="button" value="复制代码"onclick="copyText(document.all.FunctionExample)" />  </td>
+                      </tr>
+                            
+                        
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

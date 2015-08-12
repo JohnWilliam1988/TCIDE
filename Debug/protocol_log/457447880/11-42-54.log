@@ -1,0 +1,6 @@
+- 2012/11/09 11:42:55.000 INFO: Login Entry
+- 2012/11/09 11:42:56.998 DEBUG: RcvTcp received head - line 207 bytesRecv = 6
+- 2012/11/09 11:42:56.998 DEBUG: RcvTcp receiving msg - line 235
+- 2012/11/09 11:42:57.248 DEBUG: RcvTcp received head - line 207 bytesRecv = 6
+- 2012/11/09 11:42:57.248 DEBUG: RcvTcp receiving msg - line 235
+- 2012/11/09 11:42:57.248 ERROR: Login Exit 200013a2

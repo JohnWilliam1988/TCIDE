@@ -1,0 +1,41 @@
+增加数组空间和方法：
+ 获取数组的维数
+1、dim = arraysp.dims(array)   
+   数组空间.维数(array)      返回值是整型值 维数
+
+  获取数组的每个维数的最大数据个数      
+2、boolr=arraysp.size(array,len1=0,len2=0,len3=0,len4=0,len5=0,len6=0,len7=0,len8=0)
+   数组空间.大小(array,len1=0,len2=0,len3=0,len4=0,len5=0,len6=0,len7=0,len8=0)   // 执行成功返回真 失败返回假
+
+连接2个相同维数的数组，之后返回一个新的数组
+3、array = arraysp.cat(array1,array2)
+   数组空间.连接(array1,array2)    // 返回值是连接后的数组 （最大支持2微数组）
+
+对数组按照指定模式进行排序
+4、arraysp.sort(array1,type=0)  //type 0:ansci码顺排 1:ansci码逆排 2:按数字顺排 3:按数字逆排 4：倒序
+   数组空间.排序( array1,type=0 )   // 成功返回真，失败返回假
+
+通过指定字符串，返回数组中所有匹配的内容，返回值为一维数组。
+5、array = arraysp.filter(array1,filterstr,type=0)  //type 0:模糊匹配 1:精确匹配
+   数组空间.过滤(array1,filterstr,type=0)   //返回值为含有filterstr的所有内容（一维数组）
+
+
+在数组的头部或者尾部添加内容
+6、arraysp.add(array,data,type=0)        //type  0:在头部加入  1：在尾部加入
+   数组空间.增加( array,data,type=0)    成功返回真，失败返回假
+
+在数组的头部或者尾部删除内容
+7、arraysp.delete(array,type=0)            //type  0：在头部删除  1：在尾部删除
+   数组空间.删除(array,type=0 )         成功返回真，失败返回假
+
+在数组的指定位置插入一个内容
+8、arraysp.insertat(array,index,data)    // index：要插入的位置 data：要插入的数据
+   数组空间.插入(array,index,data )    成功返回真，失败返回假
+
+在数组的指定位置删除一个内容
+9、arraysp.deleteat(array,index)           //  index：要删除的位置
+   数组空间.删除指定项(array,index)   成功返回真，失败返回假
+
+清空数组的所有内容
+10、arraysp.clear(array)                         // 清空数组的数据
+    数组空间.清空(array)                     成功返回真，失败返回假

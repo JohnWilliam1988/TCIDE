@@ -1,0 +1,40 @@
+#pragma once
+// 包含了matchLib库中的头文件
+#include "../src/match/util/PlatformUtils.hpp"
+#include "../src/match/util/MatchDefs.hpp"
+#include "../src/match/util/OutOfMemoryException.hpp"
+#include "../src/match/util/XMLString.hpp"
+#include "../src/match/parsers/MatchDOMParser.hpp"
+#include "../src/match/dom/DOM.hpp"
+#include "../src/match/dom/DOMText.hpp"
+#include "../src/match/dom/DOMStringList.hpp"
+#include "../src/match/util/XMLUniDefs.hpp"
+#include "../src/match/my/MyParser.h"
+#include "../src/match/my/MyIncludeBlock.h"
+#include "../src/match/my/MyRuntimeManager.h"
+#include "../src/match/my/MyBlockListPool.h"
+#include "../src/match/my/MyNameSpaceBlock.h"
+#include "../src/match/my/MyNameSpaceStatement.h"
+#include "../src/match/my/MyBlockHeadFile.h"
+#include "../src/match/my/MyIfBlock.h"
+#include "../src/match/my/MyElseBlock.h"
+#include "../src/match/my/MyAssignmentBlock.h"
+#include "../src/match/my/MyCallBlock.h"
+#include "../src/match/my/MyRepeatBlock.h"
+#include "../src/match/my/MyWhileBlock.h"
+#include "../src/match/my/MyExcutor.h"
+#include "../src/match/my/MyApiProcess.h"
+#include "../src/match/my/MyDebugManager.h"
+#include "../src/match/my/GlobleThreadManager.h"
+#include "../src/match/my/MyValidator.h"
+
+//错误提示head
+#include "../src/match/my/DomTreeErrorReporter.h"
+#include "../src/match/my/MyExcutor.h"
+#include "../src/match/my/MyXMLExpError.h"
+
+#include "../src/match/my/MySerializeBlockList.h"
+#include "../src/match/my/MyEventScanner.h"
+//#include "../src/match/my/MyLogFile.h"
+
+MATCH_CPP_NAMESPACE_USE

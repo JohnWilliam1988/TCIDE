@@ -1,0 +1,41 @@
+语法改动:
+1,去掉数据类型的概念,变量定义,函数返回类型,参数类型
+2,访问其他空间的全局变量不再有数量限制
+3,if嵌套可以最多45层,其他语句同理
+4,其他空间的全局变量可以访问也可以修改
+5,向下调用函数不再有数量限制
+6,加快了运行速度
+7,改变了com调用机制,可以跨线程和跨空间调用com对象
+8,增加了 += -= *= /= << >> ~ ^ ++ -- 操作符号
+9,数组成员也为可变类型
+10,return 语句不在是必须的
+11,全局变量可以赋初值,只能是常量
+
+内部改动:
+去掉了XML的依赖
+改进了API调用模式
+
+
+
+bool  __stdcall  Writ8byteHead(wchar_t *InFile,int ID)
+{
+	HANDLE infile=::CreateFile(InFile,GENERIC_WRITE|GENERIC_READ,FILE_SHARE_READ|FILE_SHARE_WRITE,NULL,OPEN_EXISTING,FILE_ATTRIBUTE_NORMAL,NULL);
+	if(infile!=INVALID_HANDLE_VALUE)
+	{
+		DWORD DwWitten=0;
+		int ret = ~((ID+33)*3+654321);
+		SetFilePointer(infile,0,0,FILE_BEGIN);//指针复位
+		bool isok = ::WriteFile(infile,&ret,sizeof(ret),&DwWitten,NULL);
+		ret = ~((ID+77)*7+998176);
+		isok = ::WriteFile(infile,&ret,sizeof(ret),&DwWitten,NULL);
+		CloseHandle(infile);
+		return isok;
+	}
+	return false;
+}
+
+
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890
+
+
+
